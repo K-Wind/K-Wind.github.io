@@ -1,18 +1,215 @@
 <!DOCTYPE html>
 <html>
 	<head>
-      <meta charset="utf-8">
-      <title>D3 Page Template</title>
-      <script type="text/javascript" src="../d3/d3.js"></script>
+		<meta charset="utf-8">
+		<title>Assignment 2</title>
+		<script type="text/javascript" src="/d3/d3.js"></script>
+		<link rel="stylesheet" href="style.css">
 	</head>
 <body>
-<h2>Assignment 2A:</h2>
-<svg width="200" height="100">
-<rect x="0" y="20" width="80" height="80" fill="purple" fill-opacity="1.0" stroke="gray" stroke-width="2"/>
-<rect x="20" y="15" width="80" height="80" fill="blue" fill-opacity="0.8" stroke="gray" stroke-width="2"/>
-<rect x="40" y="10" width="80" height="80" fill="green" fill-opacity="0.6" stroke="gray" stroke-width="2"/>
-<rect x="60" y="5" width="80" height="80" fill="yellow" fill-opacity="0.4" stroke="gray" stroke-width="2"/>
-<rect x="80" y="0" width="80" height="80" fill="red" fill-opacity="0.2" stroke="gray" stroke-width="2"/>
-</svg>
+	<h2>Assignment 2A:</h2>
+	<br/>
+	<svg width="200" height="100">
+		<rect x="0" y="20" width="80" height="80" fill="purple" fill-opacity="1.0" stroke="gray" stroke-width="2"/>
+		<rect x="20" y="15" width="80" height="80" fill="blue" fill-opacity="0.8" stroke="gray" stroke-width="2"/>
+		<rect x="40" y="10" width="80" height="80" fill="green" fill-opacity="0.6" stroke="gray" stroke-width="2"/>
+		<rect x="60" y="5" width="80" height="80" fill="yellow" fill-opacity="0.4" stroke="gray" stroke-width="2"/>
+		<rect x="80" y="0" width="80" height="80" fill="red" fill-opacity="0.2" stroke="gray" stroke-width="2"/>
+	</svg>
+	<br/>
+
+	<h2>Assignment 2B:</h2> 
+	<div id="id2b"></div>
+	<script type="text/javascript">
+		
+		var w = 650;
+		var h = 400;
+		var padding = 60;
+		
+		var scaleX;
+		var scaleY;
+		var rScale;
+		
+		var svg = d3.select("#id2b")
+				.append("svg")
+				.attr("width", w)
+				.attr("height", h);
+
+	
+		var dataset;
+		var dataset2015;
+		d3.json("data2003.json", function(json) {
+			dataset = json;
+			createPlot();
+		});
+		
+		d3.json("data2015.json", function(json) {
+			dataset2015 = json;
+		});
+		
+		
+		function createPlot(){
+				
+			scaleX = d3.scale.linear()
+						.domain([0, d3.max(dataset, function(d){ return d["Prostitution"]; })])
+						.range([padding, w-padding]);
+			scaleY = d3.scale.linear()
+						.domain([0, d3.max(dataset, function(d){ return d["Vehicle Theft"]; })])
+						.range([h-padding, padding]);
+			rScale = d3.scale.linear()
+						 .domain([0, d3.max(dataset, function(d) { return d["Total"]; })])
+						 .range([1, 20]);
+				  
+			svg.selectAll("circle")
+				.data(dataset)
+				.enter()
+				.append("circle")
+				.attr({
+					cx: function(d){return scaleX(d["Prostitution"]);},
+					cy: function(d){return scaleY(d["Vehicle Theft"]);},
+					r:  function(d) { return rScale(d["Total"]);},
+					fill: function(d) { return "orange";}
+				});
+			svg.selectAll("text")
+				.data(dataset)
+				.enter()
+				.append("text")
+				.text(function(d){return d["District"]; })
+				.attr("x", function(d) { return scaleX(d["Prostitution"]); })
+				.attr("y", function(d) { return scaleY(d["Vehicle Theft"]); })
+				.attr("font-family", "sans-serif")
+				.attr("font-size", "12px")
+				.attr("text-anchor", "middle")
+				.attr("class", "district")
+				.attr("fill", "black");
+			
+			svg.append("text")
+				.attr("class", "x label")
+				.attr("text-anchor", "middle")
+				.attr("x", w/2)
+				.attr("y", h - 6)
+				.attr("font-family", "sans-serif")
+				.attr("font-size", "12px")
+				.text("Prostitution");
+				
+			svg.append("text")
+				.attr("class", "y label")
+				.attr("text-anchor", "middle")
+				.attr("y", 20)
+				.attr("x", -(h/2))
+				.attr("font-family", "sans-serif")
+				.attr("font-size", "12px")
+				.attr("transform", "rotate(-90)")
+				.text("Vehicle Theft");
+			
+			svg.append("text")
+				.attr("class", "year")
+				.attr("text-anchor", "middle")
+				.attr("x", w/2)
+				.attr("y", 25)
+				.attr("font-family", "sans-serif")
+				.attr("font-size", "12px")
+				.text("Plot of crimes in 2003");
+			
+			var xAxis = d3.svg.axis()
+					  .scale(scaleX)
+					  .ticks(8)
+					  .orient("bottom");
+			var yAxis = d3.svg.axis()
+					  .scale(scaleY)
+					  .ticks(8)
+					  .orient("left");
+			svg.append("g")
+				.attr("class", "axis")
+				.attr("transform", "translate(0," + (h - padding) + ")")
+				.call(xAxis);
+			svg.append("g")
+				.attr("class", "axis")
+				.attr("transform", "translate("+padding+",0)")
+				.call(yAxis);
+			
+		}
+	
+	</script>
+	<p id="ass2button">Click here to switch between 2003 and 2015</p>
+	
+	
+	<script type="text/javascript">
+		var isShowing2003 = true;
+		
+		
+		d3.select("#ass2button")
+			.on("click", function() {
+				if(isShowing2003){
+					console.log("isShowing2015")
+					isShowing2003 = false;
+					svg.selectAll("circle")
+						.data(dataset2015)
+						.transition()
+						.duration(1000)
+						.attr({
+						cx: function(d){return scaleX(d["Prostitution"]);},
+						cy: function(d){return scaleY(d["Vehicle Theft"]);},
+						r:  function(d) { return rScale(d["Total"]);}
+					});
+					
+					svg.selectAll(".district")
+						.data(dataset2015)
+						.transition()
+						.duration(1000)
+						.attr("x", function(d) { return scaleX(d["Prostitution"]); })
+						.attr("y", function(d) { return scaleY(d["Vehicle Theft"]); });
+						
+					svg.select(".year")
+						.text("Plot of crimes in 2015");
+				
+				} else {
+					console.log("isShowing2003")
+					isShowing2003 = true;
+					svg.selectAll("circle")
+						.data(dataset)
+						.transition()
+						.duration(1000)
+						.attr({
+						cx: function(d){return scaleX(d["Prostitution"]);},
+						cy: function(d){return scaleY(d["Vehicle Theft"]);},
+						r:  function(d) { return rScale(d["Total"]);}
+					});
+					
+					svg.selectAll(".district")
+						.data(dataset)
+						.transition()
+						.duration(1000)
+						.attr("x", function(d) { return scaleX(d["Prostitution"]); })
+						.attr("y", function(d) { return scaleY(d["Vehicle Theft"]); });
+						
+						
+					svg.select(".year")
+						.text("Plot of crimes in 2003");
+				}
+				
+			   
+			});
+		
+		
+	
+	
+	
+	
+	</script>
+	
+<br/>
+
+<h2>Assignment 2C:</h2> 
+
+<br/>
+
+<h2>Assignment 2D:</h2> 
+
+<br/>
+
+
+
+
 </body>
 </html
