@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Assignment 2</title>
-		<script type="text/javascript" src="/d3/d3.js"></script>
+		<title>D3 Page Template</title>
+		<script type="text/javascript" src="../d3/d3.js"></script>
 		<link rel="stylesheet" href="style.css">
 	</head>
 <body>
@@ -131,14 +131,14 @@
 		}
 	
 	</script>
-	<p id="ass2button">Click here to switch between 2003 and 2015</p>
+	<p id="ass2bbutton">Click here to switch between 2003 and 2015</p>
 	
 	
 	<script type="text/javascript">
 		var isShowing2003 = true;
 		
 		
-		d3.select("#ass2button")
+		d3.select("#ass2bbutton")
 			.on("click", function() {
 				if(isShowing2003){
 					console.log("isShowing2015")
@@ -190,17 +190,205 @@
 				
 			   
 			});
-		
-		
-	
-	
-	
-	
 	</script>
+	
+	
+	<p>The reason why we want the axis to stay the same when changing between the years is because if they stay </br>the same, the change gives a better understanding of which districts have moved their crimecount. </br> This can be seen by the movement of the datapoints on the axis but also on the size of he datapoints.</p>
 	
 <br/>
 
 <h2>Assignment 2C:</h2> 
+<p>This barchart is the sum of the different crimes in all districts within SF. </br> The chart starts by showing the crimes for 2003. You can choose to switch between the years 2003 and 2015 by clicking on the chart.</p>
+
+<div id="ass2c"></div>
+
+	<script type="text/javascript">
+		var barw = 600;
+		var barh = 700;
+		
+		var focusScaleX;
+		var focusScaleY;
+		
+		var barsvg = d3.select("#ass2c")
+				.append("svg")
+				.attr("class", "barchart")
+				.attr("width", barw)
+				.attr("height", barh);
+	
+		var focusDataset;
+		var focusDataset2015;
+		d3.json("focus2003.json", function(json) {
+			focusDataset = json;
+			createChart();
+		});
+		
+		d3.json("focus2015.json", function(json) {
+			focusDataset2015 = json;
+		});
+		
+		function createChart(){
+			focusScaleX = d3.scale.ordinal()
+							.domain(d3.range(focusDataset.length))
+							.rangeRoundBands([0, barw], 0.05);
+			focusScaleY = d3.scale.linear()
+							.domain([0, d3.max(focusDataset, function(d){ return d["Count"]; })])
+							.range([0, barh-400]);
+			
+			//Create bars
+			barsvg.selectAll("rect")
+			   .data(focusDataset)	
+			   .enter()
+			   .append("rect")
+			   .attr("x", function(d, i) {
+			   		return focusScaleX(i);
+			   })
+			   .attr("y", function(d) {
+			   		return barh - focusScaleY(d["Count"])-180;
+			   })
+			   .attr("width", focusScaleX.rangeBand())
+			   .attr("height", function(d) {
+			   		return focusScaleY(d["Count"]);
+			   })
+			   .attr("fill", function(d) {
+					return "rgb(0, 0, " + (d["Count"] * 10) + ")";
+			   });
+			//Create labels
+			barsvg.selectAll("text")
+			   .data(focusDataset)
+			   .enter()
+			   .append("text")
+				.attr("transform", "rotate(-90)")
+			   .text(function(d) {
+			   		return d["Category"];
+			   })
+			   .attr("text-anchor", "end")
+			   .attr("y", function(d, i) {
+			   		return focusScaleX(i) + focusScaleX.rangeBand() / 2;
+			   })
+			   .attr("x", function(d) {
+			   		return -barh + 174;
+			   })
+			   .attr("font-family", "sans-serif")
+			   .attr("font-size", "10px")
+			   .attr("fill", "black");
+			   
+			   
+			   //Create more labels
+			barsvg.selectAll("text.count")
+			   .data(focusDataset)
+			   .enter()
+			   .append("text")
+			   .attr("class", "count")
+			   .text(function(d) {
+			   		return d["Count"];
+			   })
+			   .attr("text-anchor", "middle")
+			   .attr("x", function(d, i) {
+			   		return focusScaleX(i) + focusScaleX.rangeBand() / 2;
+			   })
+			   .attr("y", function(d) {
+			   		return barh - focusScaleY(d["Count"]) - 185;
+			   })
+			   .attr("font-family", "sans-serif")
+			   .attr("font-size", "11px")
+			   .attr("fill", "black");
+			   
+			   
+			barsvg.append("text")
+				.attr("class", "year")
+				.attr("text-anchor", "middle")
+				.attr("x", w/2)
+				.attr("y", 25)
+				.attr("font-family", "sans-serif")
+				.attr("font-size", "12px")
+				.text("Chart with crimes in 2003");
+			   
+			   
+		}
+		
+		
+		var isShowingBar2003 = true;
+		
+		
+		d3.select(".barchart")
+			.on("click", function() {
+				if(isShowingBar2003){
+					isShowingBar2003 = false;
+					
+					barsvg.selectAll("rect")
+					   .data(focusDataset2015)
+					   .transition()
+						.duration(1000)
+					   .attr("y", function(d) {
+							return barh - focusScaleY(d["Count"])-180;
+					   })
+					   .attr("height", function(d) {
+						return focusScaleY(d["Count"]);
+					});	
+			
+					barsvg.selectAll("text.count")
+					   .data(focusDataset2015)
+					   .transition()
+					   .duration(1000)
+					   .text(function(d) {
+							return d["Count"];
+					   })
+					   .attr("x", function(d, i) {
+							return focusScaleX(i) + focusScaleX.rangeBand() / 2;
+					   })
+					   .attr("y", function(d) {
+							return barh - focusScaleY(d["Count"]) - 185;
+					   });
+					   
+						barsvg.select(".year")
+							.text("Chart with crimes in 2015");
+				
+				} else {
+					isShowingBar2003 = true;
+					
+					barsvg.selectAll("rect")
+					   .data(focusDataset)
+					   .transition()
+						.duration(1000)
+					   .attr("y", function(d) {
+							return barh - focusScaleY(d["Count"])-180;
+					   })
+					   .attr("height", function(d) {
+						return focusScaleY(d["Count"]);
+					});	
+			
+					barsvg.selectAll("text.count")
+					   .data(focusDataset)
+					   .transition()
+					   .duration(1000)
+					   .text(function(d) {
+							return d["Count"];
+					   })
+					   .attr("x", function(d, i) {
+							return focusScaleX(i) + focusScaleX.rangeBand() / 2;
+					   })
+					   .attr("y", function(d) {
+							return barh - focusScaleY(d["Count"]) - 185;
+					   });
+					   
+						barsvg.select(".year")
+							.text("Chart with crimes in 2003");
+						
+				}
+				
+			   
+			});
+		
+		
+		
+	
+	</script>
+	
+	
+
+
+
+
 
 <br/>
 
