@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-      <meta charset="utf-8">
-      <title>D3 Page Template</title>
-      <script type="text/javascript" src="../d3/d3.js"></script>
+		<meta charset="utf-8">
+		<title>D3 Page Template</title>
+		<script type="text/javascript" src="../d3/d3.js"></script>
+		<link rel="stylesheet" href="style.css">
 	</head>
 <body>
 	<h2>Assignment 2A:</h2>
@@ -18,53 +19,97 @@
 	<br/>
 
 	<h2>Assignment 2B:</h2> 
+	<div id="id2b"></div>
 	<script type="text/javascript">
+		
+		var w = 650;
+		var h = 400;
+		var padding = 60;
+		
+		var scaleX;
+		var scaleY;
+		var rScale;
+		
+		var svg = d3.select("#id2b")
+				.append("svg")
+				.attr("width", w)
+				.attr("height", h);
+
+	
 		var dataset;
+		var dataset2015;
 		d3.json("data2003.json", function(json) {
 			dataset = json;
 			createPlot();
 		});
 		
+		d3.json("data2015.json", function(json) {
+			dataset2015 = json;
+		});
+		
 		
 		function createPlot(){
 				
-			var w = 600;
-			var h = 400;
-			var padding = 25;
-			var scaleX = d3.scale.linear()
-						.domain([0, d3.max(dataset, function(d){ return d[2]; })])
+			scaleX = d3.scale.linear()
+						.domain([0, d3.max(dataset, function(d){ return d["Prostitution"]; })])
 						.range([padding, w-padding]);
-			var scaleY = d3.scale.linear()
-						.domain([0, d3.max(dataset, function(d){ return d[3]; })])
+			scaleY = d3.scale.linear()
+						.domain([0, d3.max(dataset, function(d){ return d["Vehicle Theft"]; })])
 						.range([h-padding, padding]);
-			var rScale = d3.scale.linear()
-						 .domain([0, d3.max(dataset, function(d) { return d[1]; })])
-						 .range([2, 8]);
+			rScale = d3.scale.linear()
+						 .domain([0, d3.max(dataset, function(d) { return d["Total"]; })])
+						 .range([1, 20]);
 				  
-			var svg = d3.select("body")
-					.append("svg")
-					.attr("width", w)
-					.attr("height", h);
 			svg.selectAll("circle")
 				.data(dataset)
 				.enter()
 				.append("circle")
 				.attr({
-					cx: function(d){return scaleX(d[2]);},
-					cy: function(d){return scaleY(d[3]);},
-					r:  function(d) { return rScale(d[1]);}
+					cx: function(d){return scaleX(d["Prostitution"]);},
+					cy: function(d){return scaleY(d["Vehicle Theft"]);},
+					r:  function(d) { return rScale(d["Total"]);},
+					fill: function(d) { return "orange";}
 				});
 			svg.selectAll("text")
 				.data(dataset)
 				.enter()
 				.append("text")
-				.text(function(d){return "[" + d[2] + ", " + d[3] + "]"; })
-				.attr("x", function(d) { return scatterScaleX(d[2]); })
-				.attr("y", function(d) { return scatterScaleY(d[3])+15; })
+				.text(function(d){return d["District"]; })
+				.attr("x", function(d) { return scaleX(d["Prostitution"]); })
+				.attr("y", function(d) { return scaleY(d["Vehicle Theft"]); })
 				.attr("font-family", "sans-serif")
-				.attr("font-size", "11px")
+				.attr("font-size", "12px")
 				.attr("text-anchor", "middle")
-				.attr("fill", "red");
+				.attr("class", "district")
+				.attr("fill", "black");
+			
+			svg.append("text")
+				.attr("class", "x label")
+				.attr("text-anchor", "middle")
+				.attr("x", w/2)
+				.attr("y", h - 6)
+				.attr("font-family", "sans-serif")
+				.attr("font-size", "12px")
+				.text("Vehicle Theft");
+				
+			svg.append("text")
+				.attr("class", "y label")
+				.attr("text-anchor", "middle")
+				.attr("y", 20)
+				.attr("x", -(h/2))
+				.attr("font-family", "sans-serif")
+				.attr("font-size", "12px")
+				.attr("transform", "rotate(-90)")
+				.text("Prostitution");
+			
+			svg.append("text")
+				.attr("class", "year")
+				.attr("text-anchor", "middle")
+				.attr("x", w/2)
+				.attr("y", 25)
+				.attr("font-family", "sans-serif")
+				.attr("font-size", "12px")
+				.text("Plot of crimes in 2003");
 			
 			var xAxis = d3.svg.axis()
 					  .scale(scaleX)
@@ -72,7 +117,7 @@
 					  .orient("bottom");
 			var yAxis = d3.svg.axis()
 					  .scale(scaleY)
-					  .ticks(5)
+					  .ticks(8)
 					  .orient("left");
 			svg.append("g")
 				.attr("class", "axis")
@@ -85,10 +130,74 @@
 			
 		}
 	
-	
-	
-		
 	</script>
+	<p id="ass2button">Click here to switch between 2003 and 2015</p>
+	
+	
+	<script type="text/javascript">
+		var isShowing2003 = true;
+		
+		
+		d3.select("#ass2button")
+			.on("click", function() {
+				if(isShowing2003){
+					console.log("isShowing2015")
+					isShowing2003 = false;
+					svg.selectAll("circle")
+						.data(dataset2015)
+						.transition()
+						.duration(1000)
+						.attr({
+						cx: function(d){return scaleX(d["Prostitution"]);},
+						cy: function(d){return scaleY(d["Vehicle Theft"]);},
+						r:  function(d) { return rScale(d["Total"]);}
+					});
+					
+					svg.selectAll(".district")
+						.data(dataset2015)
+						.transition()
+						.duration(1000)
+						.attr("x", function(d) { return scaleX(d["Prostitution"]); })
+						.attr("y", function(d) { return scaleY(d["Vehicle Theft"]); });
+						
+					svg.select(".year")
+						.text("Plot of crimes in 2015");
+				
+				} else {
+					console.log("isShowing2003")
+					isShowing2003 = true;
+					svg.selectAll("circle")
+						.data(dataset)
+						.transition()
+						.duration(1000)
+						.attr({
+						cx: function(d){return scaleX(d["Prostitution"]);},
+						cy: function(d){return scaleY(d["Vehicle Theft"]);},
+						r:  function(d) { return rScale(d["Total"]);}
+					});
+					
+					svg.selectAll(".district")
+						.data(dataset)
+						.transition()
+						.duration(1000)
+						.attr("x", function(d) { return scaleX(d["Prostitution"]); })
+						.attr("y", function(d) { return scaleY(d["Vehicle Theft"]); });
+						
+						
+					svg.select(".year")
+						.text("Plot of crimes in 2003");
+				}
+				
+			   
+			});
+		
+		
+	
+	
+	
+	
+	</script>
+	
 <br/>
 
 <h2>Assignment 2C:</h2> 
