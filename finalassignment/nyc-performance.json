@@ -1,0 +1,1555 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "qvir-knu3",
+      "name" : "DOE High School Performance- Directory 2016",
+      "attribution" : "Department of Education (DOE)",
+      "averageRating" : 0,
+      "category" : "Education",
+      "createdAt" : 1437666493,
+      "description" : "Performance of NYC High Schools",
+      "displayType" : "table",
+      "downloadCount" : 113,
+      "indexUpdatedAt" : 1437676188,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 12445128,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1437666619,
+      "publicationGroup" : 3687211,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1437666537,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 3687211,
+      "totalTimesRated" : 0,
+      "viewCount" : 217,
+      "viewLastModified" : 1437667688,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 214470385,
+        "name" : "dbn",
+        "dataTypeName" : "text",
+        "fieldName" : "dbn",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29997688,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 437,
+          "smallest" : "01M292",
+          "null" : 0,
+          "largest" : "32K556",
+          "top" : [ {
+            "count" : 20,
+            "item" : "30Q258"
+          }, {
+            "count" : 19,
+            "item" : "30Q286"
+          }, {
+            "count" : 18,
+            "item" : "30Q301"
+          }, {
+            "count" : 17,
+            "item" : "30Q445"
+          }, {
+            "count" : 16,
+            "item" : "30Q450"
+          }, {
+            "count" : 15,
+            "item" : "30Q501"
+          }, {
+            "count" : 14,
+            "item" : "30Q502"
+          }, {
+            "count" : 13,
+            "item" : "30Q555"
+          }, {
+            "count" : 12,
+            "item" : "30Q575"
+          }, {
+            "count" : 11,
+            "item" : "30Q580"
+          }, {
+            "count" : 10,
+            "item" : "31R047"
+          }, {
+            "count" : 9,
+            "item" : "31R064"
+          }, {
+            "count" : 8,
+            "item" : "31R080"
+          }, {
+            "count" : 7,
+            "item" : "31R440"
+          }, {
+            "count" : 6,
+            "item" : "31R445"
+          }, {
+            "count" : 5,
+            "item" : "31R450"
+          }, {
+            "count" : 4,
+            "item" : "31R455"
+          }, {
+            "count" : 3,
+            "item" : "31R460"
+          }, {
+            "count" : 2,
+            "item" : "31R600"
+          }, {
+            "count" : 1,
+            "item" : "31R605"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470386,
+        "name" : "ontrack_year1_2013",
+        "dataTypeName" : "percent",
+        "fieldName" : "ontrack_year1_2013",
+        "position" : 3,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 29997689,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 400,
+          "smallest" : "31",
+          "sum" : "32521",
+          "null" : 37,
+          "average" : "81.3025",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 20,
+            "item" : "83"
+          }, {
+            "count" : 19,
+            "item" : "99"
+          }, {
+            "count" : 18,
+            "item" : "98"
+          }, {
+            "count" : 17,
+            "item" : "89"
+          }, {
+            "count" : 16,
+            "item" : "82"
+          }, {
+            "count" : 15,
+            "item" : "94"
+          }, {
+            "count" : 14,
+            "item" : "73"
+          }, {
+            "count" : 13,
+            "item" : "78"
+          }, {
+            "count" : 12,
+            "item" : "77"
+          }, {
+            "count" : 11,
+            "item" : "85"
+          }, {
+            "count" : 10,
+            "item" : "100"
+          }, {
+            "count" : 9,
+            "item" : "95"
+          }, {
+            "count" : 8,
+            "item" : "80"
+          }, {
+            "count" : 7,
+            "item" : "84"
+          }, {
+            "count" : 6,
+            "item" : "74"
+          }, {
+            "count" : 5,
+            "item" : "81"
+          }, {
+            "count" : 4,
+            "item" : "68"
+          }, {
+            "count" : 3,
+            "item" : "91"
+          }, {
+            "count" : 2,
+            "item" : "70"
+          }, {
+            "count" : 1,
+            "item" : "76"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470387,
+        "name" : "graduation_rate_2013",
+        "dataTypeName" : "percent",
+        "fieldName" : "graduation_rate_2013",
+        "position" : 4,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 29997690,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 355,
+          "smallest" : "20",
+          "sum" : "25762",
+          "null" : 82,
+          "average" : "72.56901408450704",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 20,
+            "item" : "98"
+          }, {
+            "count" : 19,
+            "item" : "66"
+          }, {
+            "count" : 18,
+            "item" : "75"
+          }, {
+            "count" : 17,
+            "item" : "85"
+          }, {
+            "count" : 16,
+            "item" : "68"
+          }, {
+            "count" : 15,
+            "item" : "69"
+          }, {
+            "count" : 14,
+            "item" : "65"
+          }, {
+            "count" : 13,
+            "item" : "74"
+          }, {
+            "count" : 12,
+            "item" : "71"
+          }, {
+            "count" : 11,
+            "item" : "70"
+          }, {
+            "count" : 10,
+            "item" : "78"
+          }, {
+            "count" : 9,
+            "item" : "96"
+          }, {
+            "count" : 8,
+            "item" : "87"
+          }, {
+            "count" : 7,
+            "item" : "83"
+          }, {
+            "count" : 6,
+            "item" : "60"
+          }, {
+            "count" : 5,
+            "item" : "91"
+          }, {
+            "count" : 4,
+            "item" : "61"
+          }, {
+            "count" : 3,
+            "item" : "90"
+          }, {
+            "count" : 2,
+            "item" : "80"
+          }, {
+            "count" : 1,
+            "item" : "86"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470388,
+        "name" : "college_career_rate_2013",
+        "dataTypeName" : "percent",
+        "fieldName" : "college_career_rate_2013",
+        "position" : 5,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 29997691,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 339,
+          "smallest" : "6",
+          "sum" : "18629",
+          "null" : 98,
+          "average" : "54.95280235988201",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 20,
+            "item" : "55"
+          }, {
+            "count" : 19,
+            "item" : "58"
+          }, {
+            "count" : 18,
+            "item" : "41"
+          }, {
+            "count" : 17,
+            "item" : "45"
+          }, {
+            "count" : 16,
+            "item" : "42"
+          }, {
+            "count" : 15,
+            "item" : "34"
+          }, {
+            "count" : 14,
+            "item" : "67"
+          }, {
+            "count" : 13,
+            "item" : "38"
+          }, {
+            "count" : 12,
+            "item" : "47"
+          }, {
+            "count" : 11,
+            "item" : "44"
+          }, {
+            "count" : 10,
+            "item" : "49"
+          }, {
+            "count" : 9,
+            "item" : "60"
+          }, {
+            "count" : 8,
+            "item" : "40"
+          }, {
+            "count" : 7,
+            "item" : "46"
+          }, {
+            "count" : 6,
+            "item" : "80"
+          }, {
+            "count" : 5,
+            "item" : "51"
+          }, {
+            "count" : 4,
+            "item" : "95"
+          }, {
+            "count" : 3,
+            "item" : "68"
+          }, {
+            "count" : 2,
+            "item" : "79"
+          }, {
+            "count" : 1,
+            "item" : "66"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470389,
+        "name" : "ontrack_year1_2014",
+        "dataTypeName" : "percent",
+        "fieldName" : "ontrack_year1_2014",
+        "position" : 6,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 29997692,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 418,
+          "smallest" : "20",
+          "sum" : "34093",
+          "null" : 19,
+          "average" : "81.56220095693780",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 20,
+            "item" : "90"
+          }, {
+            "count" : 19,
+            "item" : "88"
+          }, {
+            "count" : 18,
+            "item" : "97"
+          }, {
+            "count" : 17,
+            "item" : "98"
+          }, {
+            "count" : 16,
+            "item" : "84"
+          }, {
+            "count" : 15,
+            "item" : "89"
+          }, {
+            "count" : 14,
+            "item" : "92"
+          }, {
+            "count" : 13,
+            "item" : "74"
+          }, {
+            "count" : 12,
+            "item" : "79"
+          }, {
+            "count" : 11,
+            "item" : "71"
+          }, {
+            "count" : 10,
+            "item" : "82"
+          }, {
+            "count" : 9,
+            "item" : "80"
+          }, {
+            "count" : 8,
+            "item" : "100"
+          }, {
+            "count" : 7,
+            "item" : "99"
+          }, {
+            "count" : 6,
+            "item" : "78"
+          }, {
+            "count" : 5,
+            "item" : "81"
+          }, {
+            "count" : 4,
+            "item" : "85"
+          }, {
+            "count" : 3,
+            "item" : "94"
+          }, {
+            "count" : 2,
+            "item" : "75"
+          }, {
+            "count" : 1,
+            "item" : "77"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470390,
+        "name" : "graduation_rate_2014",
+        "dataTypeName" : "percent",
+        "fieldName" : "graduation_rate_2014",
+        "position" : 7,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 29997693,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 372,
+          "smallest" : "20",
+          "sum" : "27385",
+          "null" : 65,
+          "average" : "73.61559139784946",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 20,
+            "item" : "71"
+          }, {
+            "count" : 19,
+            "item" : "72"
+          }, {
+            "count" : 18,
+            "item" : "66"
+          }, {
+            "count" : 17,
+            "item" : "99"
+          }, {
+            "count" : 16,
+            "item" : "61"
+          }, {
+            "count" : 15,
+            "item" : "76"
+          }, {
+            "count" : 14,
+            "item" : "68"
+          }, {
+            "count" : 13,
+            "item" : "65"
+          }, {
+            "count" : 12,
+            "item" : "59"
+          }, {
+            "count" : 11,
+            "item" : "57"
+          }, {
+            "count" : 10,
+            "item" : "91"
+          }, {
+            "count" : 9,
+            "item" : "83"
+          }, {
+            "count" : 8,
+            "item" : "78"
+          }, {
+            "count" : 7,
+            "item" : "70"
+          }, {
+            "count" : 6,
+            "item" : "80"
+          }, {
+            "count" : 5,
+            "item" : "93"
+          }, {
+            "count" : 4,
+            "item" : "58"
+          }, {
+            "count" : 3,
+            "item" : "50"
+          }, {
+            "count" : 2,
+            "item" : "82"
+          }, {
+            "count" : 1,
+            "item" : "95"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470391,
+        "name" : "college_career_rate_2014",
+        "dataTypeName" : "percent",
+        "fieldName" : "college_career_rate_2014",
+        "position" : 8,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 29997694,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 355,
+          "smallest" : "10",
+          "sum" : "19046",
+          "null" : 82,
+          "average" : "53.65070422535211",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 20,
+            "item" : "41"
+          }, {
+            "count" : 19,
+            "item" : "62"
+          }, {
+            "count" : 18,
+            "item" : "49"
+          }, {
+            "count" : 17,
+            "item" : "40"
+          }, {
+            "count" : 16,
+            "item" : "47"
+          }, {
+            "count" : 15,
+            "item" : "51"
+          }, {
+            "count" : 14,
+            "item" : "39"
+          }, {
+            "count" : 13,
+            "item" : "34"
+          }, {
+            "count" : 12,
+            "item" : "36"
+          }, {
+            "count" : 11,
+            "item" : "46"
+          }, {
+            "count" : 10,
+            "item" : "27"
+          }, {
+            "count" : 9,
+            "item" : "48"
+          }, {
+            "count" : 8,
+            "item" : "37"
+          }, {
+            "count" : 7,
+            "item" : "86"
+          }, {
+            "count" : 6,
+            "item" : "38"
+          }, {
+            "count" : 5,
+            "item" : "58"
+          }, {
+            "count" : 4,
+            "item" : "80"
+          }, {
+            "count" : 3,
+            "item" : "74"
+          }, {
+            "count" : 2,
+            "item" : "72"
+          }, {
+            "count" : 1,
+            "item" : "67"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470392,
+        "name" : "ontrack_year1_boro",
+        "dataTypeName" : "percent",
+        "fieldName" : "ontrack_year1_boro",
+        "position" : 9,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 29997695,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 437,
+          "smallest" : "79",
+          "sum" : "36058",
+          "null" : 0,
+          "average" : "82.51258581235698",
+          "largest" : "85",
+          "top" : [ {
+            "count" : 20,
+            "item" : "85"
+          }, {
+            "count" : 19,
+            "item" : "79"
+          }, {
+            "count" : 18,
+            "item" : "82"
+          }, {
+            "count" : 17,
+            "item" : "84"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470393,
+        "name" : "graduation_rate_boro",
+        "dataTypeName" : "percent",
+        "fieldName" : "graduation_rate_boro",
+        "position" : 10,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 29997696,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 437,
+          "smallest" : "59",
+          "sum" : "29199",
+          "null" : 0,
+          "average" : "66.81693363844394",
+          "largest" : "78",
+          "top" : [ {
+            "count" : 20,
+            "item" : "70"
+          }, {
+            "count" : 19,
+            "item" : "59"
+          }, {
+            "count" : 18,
+            "item" : "68"
+          }, {
+            "count" : 17,
+            "item" : "71"
+          }, {
+            "count" : 16,
+            "item" : "78"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470394,
+        "name" : "college_career_rate_boro",
+        "dataTypeName" : "percent",
+        "fieldName" : "college_career_rate_boro",
+        "position" : 11,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 29997697,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 437,
+          "smallest" : "41",
+          "sum" : "21680",
+          "null" : 0,
+          "average" : "49.61098398169336",
+          "largest" : "60",
+          "top" : [ {
+            "count" : 20,
+            "item" : "53"
+          }, {
+            "count" : 19,
+            "item" : "41"
+          }, {
+            "count" : 18,
+            "item" : "50"
+          }, {
+            "count" : 17,
+            "item" : "56"
+          }, {
+            "count" : 16,
+            "item" : "60"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470395,
+        "name" : "pct_stu_enough_variety_2014",
+        "dataTypeName" : "percent",
+        "fieldName" : "pct_stu_enough_variety_2014",
+        "position" : 12,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 29997698,
+        "width" : 424,
+        "cachedContents" : {
+          "non_null" : 424,
+          "smallest" : "28",
+          "sum" : "31062",
+          "null" : 13,
+          "average" : "73.25943396226415",
+          "largest" : "97",
+          "top" : [ {
+            "count" : 20,
+            "item" : "77"
+          }, {
+            "count" : 19,
+            "item" : "75"
+          }, {
+            "count" : 18,
+            "item" : "90"
+          }, {
+            "count" : 17,
+            "item" : "78"
+          }, {
+            "count" : 16,
+            "item" : "81"
+          }, {
+            "count" : 15,
+            "item" : "65"
+          }, {
+            "count" : 14,
+            "item" : "88"
+          }, {
+            "count" : 13,
+            "item" : "66"
+          }, {
+            "count" : 12,
+            "item" : "82"
+          }, {
+            "count" : 11,
+            "item" : "64"
+          }, {
+            "count" : 10,
+            "item" : "84"
+          }, {
+            "count" : 9,
+            "item" : "76"
+          }, {
+            "count" : 8,
+            "item" : "74"
+          }, {
+            "count" : 7,
+            "item" : "70"
+          }, {
+            "count" : 6,
+            "item" : "62"
+          }, {
+            "count" : 5,
+            "item" : "73"
+          }, {
+            "count" : 4,
+            "item" : "72"
+          }, {
+            "count" : 3,
+            "item" : "68"
+          }, {
+            "count" : 2,
+            "item" : "80"
+          }, {
+            "count" : 1,
+            "item" : "85"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470396,
+        "name" : "pct_stu_safe_2014",
+        "dataTypeName" : "percent",
+        "fieldName" : "pct_stu_safe_2014",
+        "position" : 13,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 29997699,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 424,
+          "smallest" : "49",
+          "sum" : "34178",
+          "null" : 13,
+          "average" : "80.60849056603774",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 20,
+            "item" : "76"
+          }, {
+            "count" : 19,
+            "item" : "90"
+          }, {
+            "count" : 18,
+            "item" : "92"
+          }, {
+            "count" : 17,
+            "item" : "71"
+          }, {
+            "count" : 16,
+            "item" : "87"
+          }, {
+            "count" : 15,
+            "item" : "81"
+          }, {
+            "count" : 14,
+            "item" : "84"
+          }, {
+            "count" : 13,
+            "item" : "88"
+          }, {
+            "count" : 12,
+            "item" : "83"
+          }, {
+            "count" : 11,
+            "item" : "96"
+          }, {
+            "count" : 10,
+            "item" : "93"
+          }, {
+            "count" : 9,
+            "item" : "82"
+          }, {
+            "count" : 8,
+            "item" : "80"
+          }, {
+            "count" : 7,
+            "item" : "91"
+          }, {
+            "count" : 6,
+            "item" : "73"
+          }, {
+            "count" : 5,
+            "item" : "86"
+          }, {
+            "count" : 4,
+            "item" : "95"
+          }, {
+            "count" : 3,
+            "item" : "89"
+          }, {
+            "count" : 2,
+            "item" : "94"
+          }, {
+            "count" : 1,
+            "item" : "78"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470397,
+        "name" : "quality_review_year",
+        "dataTypeName" : "text",
+        "fieldName" : "quality_review_year",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29997700,
+        "width" : 328,
+        "cachedContents" : {
+          "non_null" : 316,
+          "smallest" : "2010-2011",
+          "null" : 121,
+          "largest" : "2013-2014",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2013-2014"
+          }, {
+            "count" : 19,
+            "item" : "2012-2013"
+          }, {
+            "count" : 18,
+            "item" : "2010-2011"
+          }, {
+            "count" : 17,
+            "item" : "2011-2012"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470398,
+        "name" : "qr_curriculum",
+        "dataTypeName" : "text",
+        "fieldName" : "qr_curriculum",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29997701,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 316,
+          "smallest" : " D",
+          "null" : 121,
+          "largest" : "WD",
+          "top" : [ {
+            "count" : 20,
+            "item" : " P"
+          }, {
+            "count" : 19,
+            "item" : " D"
+          }, {
+            "count" : 18,
+            "item" : "WD"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470399,
+        "name" : "qr_instruction",
+        "dataTypeName" : "text",
+        "fieldName" : "qr_instruction",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29997702,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 316,
+          "smallest" : " D",
+          "null" : 121,
+          "largest" : "WD",
+          "top" : [ {
+            "count" : 20,
+            "item" : " D"
+          }, {
+            "count" : 19,
+            "item" : " P"
+          }, {
+            "count" : 18,
+            "item" : "WD"
+          }, {
+            "count" : 17,
+            "item" : "UD"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470400,
+        "name" : "qr_assessing_student_learning",
+        "dataTypeName" : "text",
+        "fieldName" : "qr_assessing_student_learning",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29997703,
+        "width" : 448,
+        "cachedContents" : {
+          "non_null" : 316,
+          "smallest" : " D",
+          "null" : 121,
+          "largest" : "WD",
+          "top" : [ {
+            "count" : 20,
+            "item" : " P"
+          }, {
+            "count" : 19,
+            "item" : " D"
+          }, {
+            "count" : 18,
+            "item" : "WD"
+          }, {
+            "count" : 17,
+            "item" : "UD"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470426,
+        "name" : "qr_high_expectations",
+        "dataTypeName" : "text",
+        "fieldName" : "qr_high_expectations",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29997704,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 316,
+          "smallest" : " D",
+          "null" : 121,
+          "largest" : "WD",
+          "top" : [ {
+            "count" : 20,
+            "item" : " P"
+          }, {
+            "count" : 19,
+            "item" : " D"
+          }, {
+            "count" : 18,
+            "item" : "WD"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 214470477,
+        "name" : "qr_teacher_collaboration",
+        "dataTypeName" : "text",
+        "fieldName" : "qr_teacher_collaboration",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29997705,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 316,
+          "smallest" : " D",
+          "null" : 121,
+          "largest" : "WD",
+          "top" : [ {
+            "count" : 20,
+            "item" : " P"
+          }, {
+            "count" : 19,
+            "item" : " D"
+          }, {
+            "count" : 18,
+            "item" : "WD"
+          } ]
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Education (DOE)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "assetId" : "ZHFHfu5GLVOBcRxtDjGqRRwr-Hx_e_iuB0iJ5n4LkZA",
+          "blobId" : "",
+          "name" : "doe_hsdirectory_performance_data_dictionary_2016.xlsx",
+          "filename" : "doe_hsdirectory_performance_data_dictionary_2016.xlsx"
+        } ],
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs" ]
+      },
+      "tags" : [ "doe", "high school", "performance", "graduation", "college" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "4808ABCF-4564-4986-B1A6-E8E7C03ADB3B", 1, 1437666514, "399231", 1437666514, "399231", null, "01M292", "62", "58", "32", "63", "43", "41", "85", "70", "53", "77", "76", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 2, "026B3A20-4829-4860-BEEC-4901166BCDAB", 2, 1437666514, "399231", 1437666514, "399231", null, "01M448", "83", "78", "55", "90", "80", "52", "85", "70", "53", "75", "90", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 3, "BDDBB7FF-72A7-4968-8DAC-97D37B682158", 3, 1437666514, "399231", 1437666514, "399231", null, "01M450", "92", "76", "58", "88", "82", "69", "85", "70", "53", "89", "92", null, null, null, null, null, null ]
+, [ 4, "1CA9512E-4E93-4692-82C3-C60C3E4775CB", 4, 1437666514, "399231", 1437666514, "399231", null, "01M509", "59", "36", "38", "59", "48", "26", "85", "70", "53", "28", "71", "2013-2014", " D", " D", " D", " D", " P" ]
+, [ 5, "83354B64-56C2-477C-9155-A3597D01F049", 5, 1437666514, "399231", 1437666514, "399231", null, "01M539", "99", "98", "84", "97", "95", "89", "85", "70", "53", "75", "87", "2010-2011", "WD", " P", " P", "WD", " D" ]
+, [ 6, "DC29F9F0-D211-40BC-A1C5-E23919851713", 6, 1437666514, "399231", 1437666514, "399231", null, "01M696", "96", "98", "94", "98", "100", "93", "85", "70", "53", "90", "98", "2013-2014", "WD", "WD", " P", "WD", "WD" ]
+, [ 7, "DDFEF299-4CEC-4003-97E8-461D8D84E030", 7, 1437666514, "399231", 1437666514, "399231", null, "02M047", "98", "71", "42", "90", "69", "62", "85", "70", "53", "50", "90", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 8, "3C489352-3E1A-49D4-9AFA-824B8244C34A", 8, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M135", null, null, null, "84", null, null, "85", "70", "53", "78", "81", null, null, null, null, null, null ]
+, [ 9, "2AAF586A-27E7-4D28-885B-2E6307E616D3", 9, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M139", null, null, null, "89", null, null, "85", "70", "53", "81", "84", null, null, null, null, null, null ]
+, [ 10, "E8292650-3428-4C7C-830F-379DAE35C67E", 10, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M260", null, null, null, null, null, null, "85", "70", "53", "85", "88", "2011-2012", " P", " P", " P", " P", " P" ]
+, [ 11, "5C57BD92-8C0E-4ABD-9647-50B096E9DC33", 11, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997698\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997699\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M280", null, null, null, null, null, null, "85", "70", "53", null, null, null, null, null, null, null, null ]
+, [ 12, "E986E197-C0DB-4DF5-B5EA-ED8A6E0A5C15", 12, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997698\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997699\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M282", null, null, null, null, null, null, "85", "70", "53", null, null, null, null, null, null, null, null ]
+, [ 13, "28FA7CB0-393C-4B95-9204-95EC344573AD", 13, 1437666514, "399231", 1437666514, "399231", null, "02M288", "89", "84", "53", "92", "77", "49", "85", "70", "53", "65", "83", null, null, null, null, null, null ]
+, [ 14, "44F57899-D600-4527-B619-A7761EA092A2", 14, 1437666514, "399231", 1437666514, "399231", null, "02M294", "90", "65", "49", "88", "71", "40", "85", "70", "53", "88", "96", "2013-2014", "WD", " P", "WD", "WD", " P" ]
+, [ 15, "52E9860D-C5DA-4309-8492-7B01781642F3", 15, 1437666514, "399231", 1437666514, "399231", null, "02M296", "82", "66", "52", "74", "73", "47", "85", "70", "53", "77", "88", null, null, null, null, null, null ]
+, [ 16, "B0468FB7-E310-43CE-883A-2A2FDF5AF344", 16, 1437666514, "399231", 1437666514, "399231", null, "02M298", "94", "89", "69", "89", "94", "68", "85", "70", "53", "83", "93", null, null, null, null, null, null ]
+, [ 17, "0BB69D40-4DD8-40B5-82A4-F41611D5495B", 17, 1437666514, "399231", 1437666514, "399231", null, "02M300", "73", "55", "55", "79", "65", "43", "85", "70", "53", "66", "82", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 18, "7831F64D-8DB8-42A8-81DA-105EA97BC4C1", 18, 1437666514, "399231", 1437666514, "399231", null, "02M303", "78", "62", "52", "83", "72", "49", "85", "70", "53", "78", "87", "2011-2012", " P", " P", " P", "WD", " P" ]
+, [ 19, "80005F94-3368-4D1B-88FE-7792618969D0", 19, 1437666514, "399231", 1437666514, "399231", null, "02M305", "83", "83", "60", "90", "87", "69", "85", "70", "53", "66", "80", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 20, "D910227A-2753-4A0B-88D1-2DA36E2C1CBF", 20, 1437666514, "399231", 1437666514, "399231", null, "02M308", "67", "75", "52", "74", "72", "61", "85", "70", "53", "82", "84", null, null, null, null, null, null ]
+, [ 21, "97BCBA23-36D1-49FE-B8DC-C16E96A80220", 21, 1437666514, "399231", 1437666514, "399231", null, "02M316", "77", "75", "48", "71", "77", "62", "85", "70", "53", "64", "91", "2011-2012", " P", " P", " D", " P", " P" ]
+, [ 22, "CC2D37A4-01E9-441D-8F46-4D7609C1F70B", 22, 1437666514, "399231", 1437666514, "399231", null, "02M374", "82", "77", "50", "79", "74", "54", "85", "70", "53", "52", "73", "2012-2013", " D", " D", " D", " D", " D" ]
+, [ 23, "8CA0A623-4197-40AA-8350-C2F4A41A21EF", 23, 1437666514, "399231", 1437666514, "399231", null, "02M376", "98", "94", "86", "97", "96", "78", "85", "70", "53", "89", "96", "2013-2014", "WD", " P", "WD", "WD", "WD" ]
+, [ 24, "1027057A-22E6-414F-A94F-25831C818354", 24, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "02M392", "83", "86", null, "87", "84", "64", "85", "70", "53", "68", "84", "2011-2012", "WD", " P", " P", "WD", "WD" ]
+, [ 25, "1CD661CD-3ABD-4492-A95B-CE4EF9CE53E0", 25, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "02M393", "72", "72", null, "71", "66", "48", "85", "70", "53", "77", "86", "2011-2012", " P", " P", " D", " P", " P" ]
+, [ 26, "A5444B84-A013-48F0-BD1C-C45C5304F2A1", 26, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "02M399", "77", "67", null, "82", "56", "51", "85", "70", "53", "55", "81", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 27, "49BE9ABC-71F5-4675-95D2-3EC1AE150CBA", 27, 1437666514, "399231", 1437666514, "399231", null, "02M400", "85", "83", "64", "80", "84", "70", "85", "70", "53", "83", "83", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 28, "9A1212F1-8094-423F-8543-89588D387610", 28, 1437666514, "399231", 1437666514, "399231", null, "02M407", "100", "94", "58", "100", "90", "84", "85", "70", "53", "84", "95", "2012-2013", "WD", "WD", "WD", "WD", "WD" ]
+, [ 29, "39278E6F-1CC9-407A-A4D1-A00E3C2FA230", 29, 1437666514, "399231", 1437666514, "399231", null, "02M408", "93", "96", "66", "89", "94", "66", "85", "70", "53", "58", "89", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 30, "AE01A260-CC9A-4964-9E0E-FA3B61E2E3BA", 30, 1437666514, "399231", 1437666514, "399231", null, "02M411", "100", "99", "96", "98", "100", "97", "85", "70", "53", "76", "92", null, null, null, null, null, null ]
+, [ 31, "C322B475-9F40-459F-99FC-EDFE8C50AF81", 31, 1437666514, "399231", 1437666514, "399231", null, "02M412", "95", "95", "73", "98", "96", "79", "85", "70", "53", "81", "94", null, null, null, null, null, null ]
+, [ 32, "405412A7-4655-4CA8-A687-311DB9F72FB7", 32, 1437666514, "399231", 1437666514, "399231", null, "02M413", "95", "85", "77", "99", "91", "78", "85", "70", "53", "75", "88", "2010-2011", "WD", "WD", "WD", "WD", " P" ]
+, [ 33, "F6FB5D24-3FF5-4BE4-9E6F-0A4B7AFEDD1D", 33, 1437666514, "399231", 1437666514, "399231", null, "02M414", "99", "98", "91", "98", "97", "81", "85", "70", "53", "32", "93", null, null, null, null, null, null ]
+, [ 34, "BF0A8106-9432-407C-ACD2-C7272640A0A4", 34, 1437666514, "399231", 1437666514, "399231", null, "02M416", "100", "100", "97", "99", "100", "89", "85", "70", "53", "94", "98", null, null, null, null, null, null ]
+, [ 35, "A6AFA399-383A-45A4-AAD4-73E2C0ED9FCA", 35, 1437666514, "399231", 1437666514, "399231", null, "02M418", "100", "99", "86", "99", "99", "88", "85", "70", "53", "69", "97", null, null, null, null, null, null ]
+, [ 36, "1E50EF1F-2D63-4F52-8E6A-25573F7301E1", 36, 1437666514, "399231", 1437666514, "399231", null, "02M419", "80", "50", "41", "80", "66", "35", "85", "70", "53", "74", "84", "2012-2013", " P", " D", " P", " P", " P" ]
+, [ 37, "607FD947-7DB3-4E53-A268-0CF0FFEE5053", 37, 1437666514, "399231", 1437666514, "399231", null, "02M420", "89", "86", "77", "92", "90", "76", "85", "70", "53", "78", "87", "2013-2014", " P", " P", " P", " P", "WD" ]
+, [ 38, "AFDB2A54-276A-4812-A597-5C4906EFDE35", 38, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M422", "84", null, null, "88", null, null, "85", "70", "53", "70", "78", "2011-2012", " P", " P", " D", " P", " P" ]
+, [ 39, "8640CEB4-6F6A-4C22-A910-878CF9D675E0", 39, 1437666514, "399231", 1437666514, "399231", null, "02M425", "75", "68", "43", "82", "64", "41", "85", "70", "53", "71", "81", "2013-2014", " P", " P", " P", "WD", " P" ]
+, [ 40, "8894D397-B5D3-45D8-8C94-619F9F4D01A8", 40, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M427", "61", null, null, "60", "49", null, "85", "70", "53", "81", "80", "2012-2013", " D", " D", " D", " D", " P" ]
+, [ 41, "477651D9-B9AC-4399-9E68-1B28106A815E", 41, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M432", null, null, null, null, null, null, "85", "70", "53", "77", "90", "2012-2013", " P", " D", " D", " P", " P" ]
+, [ 42, "C38A11A1-842C-41CB-A7AC-49413D5B1CEE", 42, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M437", "74", null, null, "78", "91", null, "85", "70", "53", "74", "86", "2012-2013", " D", " D", " D", " P", " P" ]
+, [ 43, "3B8C6BE6-0AD3-4AAB-A51E-667C49FD844C", 43, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M438", "81", null, null, "81", "36", null, "85", "70", "53", "85", "85", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 44, "1A43B9E4-E8A3-4D96-BE7E-A752FD04714A", 44, 1437666514, "399231", 1437666514, "399231", null, "02M439", "100", "97", "83", "100", "99", "85", "85", "70", "53", "34", "88", null, null, null, null, null, null ]
+, [ 45, "BAEBEF7F-9742-4322-A3F3-8AB627C09455", 45, 1437666514, "399231", 1437666514, "399231", null, "02M449", "68", "75", "59", "80", "75", "47", "85", "70", "53", "82", "90", "2011-2012", " P", " P", " P", " P", " P" ]
+, [ 46, "6390D174-3BFE-4D37-94F1-FF69A47CCA65", 46, 1437666514, "399231", 1437666514, "399231", null, "02M459", "81", "56", "55", "95", "71", "52", "85", "70", "53", "90", "96", "2011-2012", " P", " P", " P", " P", " P" ]
+, [ 47, "FF55BE7F-7FCC-4149-9D3F-34731AC49CB8", 47, 1437666514, "399231", 1437666514, "399231", null, "02M475", "99", "98", "99", "99", "99", "97", "85", "70", "53", "92", "95", null, null, null, null, null, null ]
+, [ 48, "C6576525-0E4D-4C33-B225-E84A49B74204", 48, 1437666514, "399231", 1437666514, "399231", null, "02M489", "83", "75", "77", "88", "82", "70", "85", "70", "53", "77", "88", "2013-2014", "WD", " P", " P", " P", " P" ]
+, [ 49, "599C025C-EEBA-42C9-B788-7499909F6C21", 49, 1437666514, "399231", 1437666514, "399231", null, "02M500", "80", "68", "40", "78", "68", "28", "85", "70", "53", "90", "95", "2011-2012", " D", " D", " P", " P", " P" ]
+, [ 50, "1D2C3DA3-0100-40CF-8A09-F8F26DED362D", 50, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M507", "83", null, null, "85", null, null, "85", "70", "53", "84", "85", "2013-2014", "WD", " P", "WD", "WD", "WD" ]
+, [ 51, "BBE080D8-3BEB-4F55-A712-10FB20112D84", 51, 1437666514, "399231", 1437666514, "399231", null, "02M519", "97", "96", "81", "94", "95", "76", "85", "70", "53", "62", "91", "2012-2013", "WD", " P", "WD", "WD", " P" ]
+, [ 52, "791FAD7B-31E0-441F-804B-7F7784114837", 52, 1437666514, "399231", 1437666514, "399231", null, "02M520", "56", "51", "43", "52", "51", "36", "85", "70", "53", "62", "63", "2013-2014", " D", " D", " D", " P", " D" ]
+, [ 53, "526E4673-AA31-43FF-9EA3-64F5F98AA8B3", 53, 1437666514, "399231", 1437666514, "399231", null, "02M529", "67", "66", "43", "81", "61", "45", "85", "70", "53", "62", "90", "2013-2014", " D", " D", " D", " P", " P" ]
+, [ 54, "A301A4C2-6DDC-4415-8175-4749D7D26BAE", 54, 1437666514, "399231", 1437666514, "399231", null, "02M531", "100", "96", "61", "100", "98", "71", "85", "70", "53", "53", "84", null, null, null, null, null, null ]
+, [ 55, "1EBAB8CA-E7CE-4A54-B8CC-E11B3A7374EB", 55, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M533", "89", null, null, "91", null, null, "85", "70", "53", "54", "64", null, null, null, null, null, null ]
+, [ 56, "7166C349-E10B-4229-86A6-38FB3EDFFD74", 56, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M534", "100", null, null, "92", null, null, "85", "70", "53", "76", "76", null, null, null, null, null, null ]
+, [ 57, "E0717EDE-257A-4F68-B402-144B70F6B03E", 57, 1437666514, "399231", 1437666514, "399231", null, "02M542", "98", "82", "70", "92", "85", "58", "85", "70", "53", "92", "96", null, null, null, null, null, null ]
+, [ 58, "D69FAD1E-AB6A-42FF-B5A2-33327FBF8A16", 58, 1437666514, "399231", 1437666514, "399231", null, "02M543", "73", "85", "58", "74", "82", "47", "85", "70", "53", "69", "90", null, null, null, null, null, null ]
+, [ 59, "6F06D6A5-303A-40E1-B8AC-F59A221BB00F", 59, 1437666514, "399231", 1437666514, "399231", null, "02M545", "98", "98", "88", "100", "96", "83", "85", "70", "53", "52", "92", null, null, null, null, null, null ]
+, [ 60, "2231B334-0B34-4A6B-B04A-1904020E1397", 60, 1437666514, "399231", 1437666514, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M546", "97", null, null, "90", null, null, "85", "70", "53", "73", "91", null, null, null, null, null, null ]
+, [ 61, "9075A4FB-F789-4118-AE26-09CC6BB1E182", 61, 1437666514, "399231", 1437666514, "399231", null, "02M551", "90", "71", "71", "82", "76", "51", "85", "70", "53", "60", "84", "2013-2014", " P", " D", " P", " P", " D" ]
+, [ 62, "B668CBB2-B000-40DC-BF09-7557B1666B34", 62, 1437666514, "399231", 1437666514, "399231", null, "02M580", "71", "72", "55", "64", "71", "59", "85", "70", "53", "55", "76", "2010-2011", " P", " P", " D", " P", " P" ]
+, [ 63, "9495151C-C740-4708-804C-DB34F09B954E", 63, 1437666514, "399231", 1437666514, "399231", null, "02M600", "91", "91", "66", "90", "92", "68", "85", "70", "53", "84", "85", null, null, null, null, null, null ]
+, [ 64, "BD021C9E-3ECE-4EB3-BA44-FED837B33AAC", 64, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "02M605", null, null, null, null, null, null, "85", "70", "53", "94", "95", "2010-2011", " P", "WD", "WD", " P", "WD" ]
+, [ 65, "A0D28DA5-9D76-4763-9B51-6A4503C0AECB", 65, 1437666515, "399231", 1437666515, "399231", null, "02M615", "83", "80", "41", "75", "85", "56", "85", "70", "53", "70", "86", "2011-2012", " P", " P", " P", " P", " P" ]
+, [ 66, "87DA0626-9951-4BAD-9931-A0B7DDC31010", 66, 1437666515, "399231", 1437666515, "399231", null, "02M630", "81", "84", "82", "82", "81", "62", "85", "70", "53", "77", "78", "2010-2011", " P", " P", " P", " P", " P" ]
+, [ 67, "02D03411-37B6-40B7-8EA7-261199AC9E84", 67, 1437666515, "399231", 1437666515, "399231", null, "02M655", "82", "64", "40", "74", "76", "43", "85", "70", "53", "79", "69", "2013-2014", " P", " P", " D", " P", " D" ]
+, [ 68, "833A5C87-9898-42F7-8162-84B3EDF3CAA9", 68, 1437666515, "399231", 1437666515, "399231", null, "03M299", "74", "75", "40", "77", "72", "44", "85", "70", "53", "72", "81", "2013-2014", " P", " P", " P", " P", " D" ]
+, [ 69, "16AE8B4C-FE6E-4CF8-B6CA-2F91D92A4235", 69, 1437666515, "399231", 1437666515, "399231", null, "03M307", "77", "61", "40", "75", "67", "41", "85", "70", "53", "67", "87", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 70, "7E1B4227-E23B-466E-BC98-1B96BCE5CA97", 70, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "03M402", "70", "40", null, "88", "49", "29", "85", "70", "53", "65", "82", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 71, "4C9ED2A9-F0A3-4925-8715-971610BDA0B3", 71, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997698\" : \"N/A\",\n    \"29997699\" : \"N/A\",\n    \"29997691\" : \"N/A\"\n  }\n}", "03M403", "82", "53", null, "65", "75", "40", "85", "70", "53", null, null, "2013-2014", " D", " D", " D", " P", " P" ]
+, [ 72, "F9D82910-F398-42DC-875E-E8CC855EFCDF", 72, 1437666515, "399231", 1437666515, "399231", null, "03M415", "57", "44", "31", "52", "50", "23", "85", "70", "53", "63", "76", "2013-2014", " D", " D", " D", " P", " P" ]
+, [ 73, "837BE705-D5FD-49C4-92F2-61593D08F9D5", 73, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "03M417", "85", null, null, "91", "95", null, "85", "70", "53", "64", "80", "2012-2013", " P", " P", " D", " P", "WD" ]
+, [ 74, "91F59C62-D4A7-459E-8004-02CFC0ADE2E0", 74, 1437666515, "399231", 1437666515, "399231", null, "03M479", "97", "99", "84", "95", "99", "84", "85", "70", "53", "89", "96", null, null, null, null, null, null ]
+, [ 75, "BFBB1EE4-2C8F-4667-80B7-AAE36F9EB27E", 75, 1437666515, "399231", 1437666515, "399231", null, "03M485", "99", "98", "86", "98", "99", "80", "85", "70", "53", "82", "92", null, null, null, null, null, null ]
+, [ 76, "B5D7D1C7-859C-4403-8DCA-18E920548327", 76, 1437666515, "399231", 1437666515, "399231", null, "03M492", "76", "74", "41", "70", "72", "48", "85", "70", "53", "73", "79", "2011-2012", "WD", "WD", "WD", "WD", "WD" ]
+, [ 77, "1599D9AB-D238-4928-AE4F-0916893293FE", 77, 1437666515, "399231", 1437666515, "399231", null, "03M494", "77", "64", "51", "81", "61", "39", "85", "70", "53", "50", "72", "2013-2014", " D", " D", " D", " D", " D" ]
+, [ 78, "97D5A476-FD35-48EC-9A9D-7A9A213BBB08", 78, 1437666515, "399231", 1437666515, "399231", null, "03M541", "94", "91", "89", "97", "98", "89", "85", "70", "53", "70", "92", "2011-2012", " P", " P", " P", "WD", " P" ]
+, [ 79, "78726410-D0E7-4617-A92F-6BC31BC22A8F", 79, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "03M859", null, null, null, "96", null, null, "85", "70", "53", "67", "92", "2011-2012", "WD", "WD", "WD", "WD", "WD" ]
+, [ 80, "87092E13-3277-4C93-8BA6-F57EE331ECF9", 80, 1437666515, "399231", 1437666515, "399231", null, "03M860", "89", "65", "59", "89", "73", "42", "85", "70", "53", "72", "68", "2011-2012", "WD", " P", " D", " P", " P" ]
+, [ 81, "022DA810-6673-4F7F-8D36-C27643063C26", 81, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "04M372", "94", null, null, "91", null, null, "85", "70", "53", "78", "83", "2012-2013", "WD", " P", "WD", "WD", " P" ]
+, [ 82, "8FE5ED3A-EB03-480B-8546-080FAA8A5E0A", 82, 1437666515, "399231", 1437666515, "399231", null, "04M409", "65", "41", "22", "66", "27", "30", "85", "70", "53", "80", "86", "2013-2014", " P", " D", " D", " P", " P" ]
+, [ 83, "4CDB5B44-1578-4C55-A078-DA4C6A6F2DB7", 83, 1437666515, "399231", 1437666515, "399231", null, "04M435", "95", "90", "77", "96", "94", "77", "85", "70", "53", "88", "90", "2013-2014", " P", "WD", "WD", "WD", " P" ]
+, [ 84, "25662B4E-C612-4BFE-89BF-B50E404A9533", 84, 1437666515, "399231", 1437666515, "399231", null, "04M495", "76", "76", "51", "92", "93", "55", "85", "70", "53", "86", "91", null, null, null, null, null, null ]
+, [ 85, "562A6D4E-13B8-4F50-8C3A-C7DC19E536C6", 85, 1437666515, "399231", 1437666515, "399231", null, "04M555", "87", "93", "73", "92", "98", "77", "85", "70", "53", "87", "95", null, null, null, null, null, null ]
+, [ 86, "88FAB869-DBB3-4F35-806E-45DBE8B689B1", 86, 1437666515, "399231", 1437666515, "399231", null, "04M610", "95", "100", "91", "93", "100", "97", "85", "70", "53", "62", "92", "2010-2011", "WD", " P", " P", "WD", "WD" ]
+, [ 87, "D468B92A-4C66-4AB6-9F22-558F48EED48F", 87, 1437666515, "399231", 1437666515, "399231", null, "04M680", "78", "61", "36", "76", "70", "33", "85", "70", "53", "72", "73", "2012-2013", " P", " D", " P", " P", " P" ]
+, [ 88, "E8C5B066-8529-46F1-ABBE-FF6C88755F43", 88, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "05M148", null, null, null, null, null, null, "85", "70", "53", "87", "77", null, null, null, null, null, null ]
+, [ 89, "D601FCF0-2AFF-4224-B278-C6941E4B1271", 89, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "05M157", null, null, null, "79", null, null, "85", "70", "53", "75", "79", null, null, null, null, null, null ]
+, [ 90, "0D1C66F1-D536-4EE3-A810-926028570523", 90, 1437666515, "399231", 1437666515, "399231", null, "05M304", "76", "69", "45", "82", "66", "47", "85", "70", "53", "66", "81", "2012-2013", " D", " D", " D", " P", " P" ]
+, [ 91, "04AAEE2C-23FF-45F9-AEB4-20BEC82E67C8", 91, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "05M362", "89", null, null, "97", "99", null, "85", "70", "53", "78", "83", "2011-2012", " P", " P", "WD", "WD", "WD" ]
+, [ 92, "16A89B22-4D32-453D-BD4B-C6C858429066", 92, 1437666515, "399231", 1437666515, "399231", null, "05M367", "63", "59", "23", "57", "45", "46", "85", "70", "53", "49", "72", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 93, "0B8BD6F7-06EF-4823-B26E-9D5A8789E41D", 93, 1437666515, "399231", 1437666515, "399231", null, "05M369", "85", "68", "60", "79", "77", "49", "85", "70", "53", "40", "68", "2013-2014", " D", " D", " D", " D", " P" ]
+, [ 94, "5054554B-6F49-4900-A6A3-AF7B3FF5A89E", 94, 1437666515, "399231", 1437666515, "399231", null, "05M499", "64", "80", "76", "78", "68", "78", "85", "70", "53", "82", "59", "2013-2014", " P", " D", " P", "WD", " P" ]
+, [ 95, "EB44D86A-A91C-41DF-8E3F-BAE3B6F2AE68", 95, 1437666515, "399231", 1437666515, "399231", null, "05M670", "63", "94", "63", "74", "84", "78", "85", "70", "53", "68", "84", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 96, "BD158AF1-8113-4D76-A673-6E11ECC1C43D", 96, 1437666515, "399231", 1437666515, "399231", null, "05M692", "100", "99", "98", "98", "99", "95", "85", "70", "53", "66", "94", null, null, null, null, null, null ]
+, [ 97, "3DA0439A-F6C6-425E-8D77-983D4ECBDECF", 97, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997698\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997699\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "06M211", null, null, null, null, null, null, "85", "70", "53", null, null, null, null, null, null, null, null ]
+, [ 98, "CA272ABF-D8DF-41F0-8590-66EDB9F6D567", 98, 1437666515, "399231", 1437666515, "399231", null, "06M293", "84", "88", "95", "74", "97", "86", "85", "70", "53", "76", "93", null, null, null, null, null, null ]
+, [ 99, "F63C6A65-77DE-45F2-958D-B7F87415AAC6", 99, 1437666515, "399231", 1437666515, "399231", null, "06M346", "64", "58", "45", "75", "62", "48", "85", "70", "53", "89", "92", "2013-2014", " P", " D", " P", " P", "WD" ]
+, [ 100, "7BDA3BC2-70C4-4220-9B98-F47C957AF6D8", 100, 1437666515, "399231", 1437666515, "399231", null, "06M348", "77", "66", "58", "85", "78", "58", "85", "70", "53", "83", "93", "2011-2012", " P", "WD", "WD", "WD", "WD" ]
+, [ 101, "017AAADF-5A53-4348-B134-D6D49A323872", 101, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "06M423", null, null, null, null, null, null, "85", "70", "53", "82", "91", "2011-2012", "WD", " P", " P", " P", " P" ]
+, [ 102, "F347FAD7-25FB-4716-BB12-2A416F7F7FF6", 102, 1437666515, "399231", 1437666515, "399231", null, "06M462", "76", "64", "42", "75", "55", "40", "85", "70", "53", "89", "86", null, null, null, null, null, null ]
+, [ 103, "70657A78-50F9-4451-8E02-A4249023F49D", 103, 1437666515, "399231", 1437666515, "399231", null, "06M463", "68", "62", "45", "62", "61", "33", "85", "70", "53", "78", "80", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 104, "4347196E-34DE-4A39-9BA9-01318142F9EC", 104, 1437666515, "399231", 1437666515, "399231", null, "06M467", "68", "60", "39", "74", "69", "50", "85", "70", "53", "77", "76", null, null, null, null, null, null ]
+, [ 105, "1833455F-2253-42F0-B9C8-300E8E57DB21", 105, 1437666515, "399231", 1437666515, "399231", null, "06M468", "65", "49", "36", "70", "59", "35", "85", "70", "53", "73", "76", "2013-2014", " D", " D", " D", " P", " D" ]
+, [ 106, "464C27C2-821E-4F7B-AD11-8B412C1CD0CD", 106, 1437666515, "399231", 1437666515, "399231", null, "06M540", "73", "73", "65", "71", "76", "49", "85", "70", "53", "93", "84", "2012-2013", " D", " D", " D", " P", " P" ]
+, [ 107, "28C83F78-ABC4-4148-8605-937011550F6F", 107, 1437666515, "399231", 1437666515, "399231", null, "06M552", "70", "64", "56", "79", "56", "45", "85", "70", "53", "94", "92", null, null, null, null, null, null ]
+, [ 108, "95A6204A-CF7F-419B-B0A0-6964EB7ECF02", 108, 1437666515, "399231", 1437666515, "399231", null, "07X221", "91", "86", "63", "84", "87", "51", "79", "59", "41", "78", "85", "2012-2013", " P", " P", " P", "WD", " P" ]
+, [ 109, "8AD9DF13-AD9B-41DF-AEA1-B71A1F987ADD", 109, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "07X223", null, null, null, "98", null, null, "79", "59", "41", "88", "89", "2013-2014", "WD", " P", "WD", "WD", "WD" ]
+, [ 110, "2A349C49-DC17-4729-B11A-395D0531359C", 110, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "07X259", null, null, null, "89", null, null, "79", "59", "41", "72", "84", null, null, null, null, null, null ]
+, [ 111, "5DCD7BDC-5615-4535-931C-D4DC5E20AFC3", 111, 1437666515, "399231", 1437666515, "399231", null, "07X334", "55", "31", "28", "74", "40", "19", "79", "59", "41", "84", "85", "2013-2014", " D", " P", " P", " P", " P" ]
+, [ 112, "4975F93D-5DC0-4BBE-ACD8-B790EFF59834", 112, 1437666515, "399231", 1437666515, "399231", null, "07X427", "78", "69", "53", "70", "63", "46", "79", "59", "41", "77", "77", "2013-2014", "WD", " P", " P", " P", " P" ]
+, [ 113, "02EB91D5-8644-4208-9BF4-2A7AB543A2D0", 113, 1437666515, "399231", 1437666515, "399231", null, "07X473", "79", "51", "42", "74", "57", "27", "79", "59", "41", "79", "92", "2013-2014", " D", " D", " D", " P", " D" ]
+, [ 114, "14EDB0E0-8D4B-4052-9E49-4159EBCFC098", 114, 1437666515, "399231", 1437666515, "399231", null, "07X495", "99", "85", "69", "93", "94", "65", "79", "59", "41", "88", "91", null, null, null, null, null, null ]
+, [ 115, "16DE3DE2-8723-4740-ABDA-5EE27AD8F733", 115, 1437666515, "399231", 1437666515, "399231", null, "07X500", "82", "75", "76", "87", "88", "64", "79", "59", "41", "54", "78", "2013-2014", " D", " D", " D", " P", " D" ]
+, [ 116, "68005C7E-CD3E-4A8B-93D8-FD3B7B4BEC6C", 116, 1437666515, "399231", 1437666515, "399231", null, "07X520", "62", "48", "34", "53", "42", "41", "79", "59", "41", "42", "62", "2012-2013", " D", " D", " D", " P", " D" ]
+, [ 117, "BC4983A4-F94C-4F1D-8386-DD6AF13E3ACD", 117, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "07X522", "61", null, null, "75", null, null, "79", "59", "41", "82", "86", "2013-2014", " P", " D", " P", "WD", " P" ]
+, [ 118, "FC9D2D53-7B8D-4180-801B-17E62CC7A5FC", 118, 1437666515, "399231", 1437666515, "399231", null, "07X527", "91", "62", "55", "94", "65", "55", "79", "59", "41", "92", "92", "2013-2014", " D", " D", " P", " P", " P" ]
+, [ 119, "E5BEB741-396C-4095-B5CD-3B47651BC02F", 119, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997698\" : \"N/A\",\n    \"29997699\" : \"N/A\"\n  }\n}", "07X547", "66", "54", "25", "68", "54", "28", "79", "59", "41", null, null, "2013-2014", " P", " D", " D", " P", " P" ]
+, [ 120, "B97014F6-4553-48C3-8BFD-8233C2FA189A", 120, 1437666515, "399231", 1437666515, "399231", null, "07X548", "85", "68", "48", "88", "74", "45", "79", "59", "41", "81", "88", null, null, null, null, null, null ]
+, [ 121, "4CFC4756-2DE8-4D67-8047-0EAE7D927CE7", 121, 1437666515, "399231", 1437666515, "399231", null, "07X551", "68", "87", "65", "85", "65", "58", "79", "59", "41", "78", "79", "2013-2014", " P", " D", " P", "WD", " P" ]
+, [ 122, "304BA6AD-47A9-4266-92C3-12F892E3A79C", 122, 1437666515, "399231", 1437666515, "399231", null, "07X600", "75", "51", "23", "77", "64", "19", "79", "59", "41", "80", "71", "2012-2013", " D", "UD", " D", " D", " D" ]
+, [ 123, "D04F1A69-F536-45CF-8683-A413E8E85688", 123, 1437666515, "399231", 1437666515, "399231", null, "07X670", "68", "69", "54", "50", "56", "47", "79", "59", "41", "64", "66", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 124, "23A494CB-7B1D-4946-B705-99A6848C2172", 124, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "08X269", "75", "70", null, "71", "66", "47", "79", "59", "41", "76", "80", "2013-2014", " D", " D", " P", " P", " P" ]
+, [ 125, "E43B5B0D-7D30-4537-9AC4-467165D77FAE", 125, 1437666515, "399231", 1437666515, "399231", null, "08X282", "63", "66", "43", "68", "72", "51", "79", "59", "41", "44", "58", "2013-2014", " P", " D", " D", " D", " P" ]
+, [ 126, "51B7CBA6-F955-40B3-AABA-58624DCB5287", 126, 1437666515, "399231", 1437666515, "399231", null, "08X293", "80", "80", "41", "80", "73", "54", "79", "59", "41", "80", "71", "2012-2013", " P", " D", " P", "WD", " P" ]
+, [ 127, "02489FB8-669A-4134-9981-0527A6E33057", 127, 1437666515, "399231", 1437666515, "399231", null, "08X305", "82", "61", "27", "85", "70", "30", "79", "59", "41", "75", "79", "2010-2011", " D", " D", " P", " P", " D" ]
+, [ 128, "53206240-E11D-47B9-8E2E-EF2D6BA91099", 128, 1437666515, "399231", 1437666515, "399231", null, "08X312", "89", "66", "34", "85", "68", "45", "79", "59", "41", "67", "78", null, null, null, null, null, null ]
+, [ 129, "5E80AFF0-5648-4F4A-BC17-9F12A997492A", 129, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "08X320", null, null, null, "76", null, null, "79", "59", "41", "65", "58", null, null, null, null, null, null ]
+, [ 130, "2F1025FD-37FC-47EA-830F-C68A922EDEB2", 130, 1437666515, "399231", 1437666515, "399231", null, "08X332", "74", "51", "27", "61", "46", "28", "79", "59", "41", "72", "89", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 131, "6E51B9D6-027C-4BD2-986F-230FB8B291A3", 131, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "08X348", null, null, null, "68", null, null, "79", "59", "41", "64", "67", null, null, null, null, null, null ]
+, [ 132, "4F4072BF-1076-40B0-A647-F7CC25898208", 132, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "08X349", null, null, null, "81", null, null, "79", "59", "41", "80", "82", null, null, null, null, null, null ]
+, [ 133, "0BC80DB3-AAC4-4F04-94A0-7FD16BCC77D3", 133, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "08X367", "76", null, null, "82", "53", null, "79", "59", "41", "69", "66", "2013-2014", " D", " D", " D", " P", " D" ]
+, [ 134, "C0722F91-C377-451F-BC8D-C0D15599EA94", 134, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "08X376", "62", null, null, "55", "59", null, "79", "59", "41", "66", "67", "2012-2013", " D", " D", " D", " D", " D" ]
+, [ 135, "E5B6E448-7241-40BA-B54B-25BD777A1FD6", 135, 1437666515, "399231", 1437666515, "399231", null, "08X405", "55", "54", "33", "71", "52", "37", "79", "59", "41", "73", "60", "2013-2014", " D", " D", " P", " D", " D" ]
+, [ 136, "5AE97179-3E8D-4660-A8CF-95BDA94945D9", 136, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "08X432", "84", null, null, "81", "66", null, "79", "59", "41", "84", "81", "2012-2013", " P", " D", "WD", " P", " P" ]
+, [ 137, "42146256-2513-47EF-BD41-056D14F07486", 137, 1437666515, "399231", 1437666515, "399231", null, "08X452", "79", "52", "45", "71", "57", "32", "79", "59", "41", "57", "80", "2012-2013", " D", " D", "UD", " D", " D" ]
+, [ 138, "0C396FC7-D11B-488F-99D5-4BE6505EFBA4", 138, 1437666515, "399231", 1437666515, "399231", null, "08X519", "75", "43", "32", "67", "42", "24", "79", "59", "41", "41", "69", "2013-2014", " D", " D", " D", " P", " D" ]
+, [ 139, "03BBEAEB-A339-4147-A768-85547EAFC2AB", 139, 1437666515, "399231", 1437666515, "399231", null, "08X530", "80", "42", "33", "76", "40", "22", "79", "59", "41", "77", "74", "2013-2014", " P", " D", " P", " P", " D" ]
+, [ 140, "A0BE4F4C-E85C-4CE3-96AD-2F6BAB038CCD", 140, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "08X558", "76", null, null, "80", null, null, "79", "59", "41", "74", "77", null, null, null, null, null, null ]
+, [ 141, "8F0F1038-0CA3-4D4B-95A7-CE0108D0749A", 141, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "08X559", "77", null, null, "79", null, null, "79", "59", "41", "68", "79", null, null, null, null, null, null ]
+, [ 142, "8D5215A6-D400-4C82-8235-9AA36BCA5B5B", 142, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "08X561", "82", null, null, "79", null, null, "79", "59", "41", "80", "72", null, null, null, null, null, null ]
+, [ 143, "604F0DA7-32E4-4F8E-A6FE-5B790A00EAE0", 143, 1437666515, "399231", 1437666515, "399231", null, "09X227", "69", "57", "34", "67", "55", "34", "79", "59", "41", "93", "90", "2013-2014", " D", " D", " P", "WD", " P" ]
+, [ 144, "98273F0A-6EED-46BA-89F3-76351E2EC0C6", 144, 1437666515, "399231", 1437666515, "399231", null, "09X231", "69", "68", "58", "61", "71", "51", "79", "59", "41", "83", "72", "2011-2012", " P", " P", " P", "WD", " P" ]
+, [ 145, "DEE0A723-3635-4534-9362-67D1925834C6", 145, 1437666515, "399231", 1437666515, "399231", null, "09X241", "84", "89", "92", "82", "76", "69", "79", "59", "41", "70", "77", "2012-2013", "WD", " P", "WD", "WD", "WD" ]
+, [ 146, "3131D710-E370-41E0-B449-E47A7597A477", 146, 1437666515, "399231", 1437666515, "399231", null, "09X250", "77", "82", "46", "88", "85", "68", "79", "59", "41", "78", "86", "2012-2013", " P", " P", " D", "WD", " P" ]
+, [ 147, "4A9C4EEE-03F7-4F3A-8A55-73B5536301A4", 147, 1437666515, "399231", 1437666515, "399231", null, "09X252", "83", "85", "65", "72", "69", "69", "79", "59", "41", "75", "81", "2012-2013", " P", " D", " P", " P", " P" ]
+, [ 148, "0ED63F81-86D0-4332-95E6-BA07C999F31D", 148, 1437666515, "399231", 1437666515, "399231", null, "09X260", "92", "92", "78", "90", "88", "83", "79", "59", "41", "81", "94", null, null, null, null, null, null ]
+, [ 149, "DA4FDC0F-C648-4F72-8533-D469692906CA", 149, 1437666515, "399231", 1437666515, "399231", null, "09X263", "89", "65", "41", "74", "58", "49", "79", "59", "41", "86", "92", "2013-2014", " D", " D", " D", " D", " P" ]
+, [ 150, "14C07217-8E46-4279-8AD9-8C83ACD92C4F", 150, 1437666515, "399231", 1437666515, "399231", null, "09X276", "51", "56", "28", "60", "41", "25", "79", "59", "41", "69", "82", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 151, "CC71CD50-E581-4C1A-8FC1-8CDFED7473F8", 151, 1437666515, "399231", 1437666515, "399231", null, "09X297", "71", "63", "34", "78", "59", "39", "79", "59", "41", "74", "73", "2010-2011", " P", " D", " P", " D", " P" ]
+, [ 152, "1ECC0FDA-78E6-4E5C-969E-753D60EC3DD2", 152, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "09X324", "94", "94", null, "96", "88", "68", "79", "59", "41", "62", "77", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 153, "C97F62C6-A386-4EA3-8EEF-8CAB04DEAE3E", 153, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "09X327", "90", null, null, "85", null, null, "79", "59", "41", "60", "86", null, null, null, null, null, null ]
+, [ 154, "7F13EA08-0710-4B45-9D1D-B44B00EAAEE4", 154, 1437666515, "399231", 1437666515, "399231", null, "09X329", "77", "33", "37", "80", "44", "24", "79", "59", "41", "81", "80", "2011-2012", " P", " D", " P", " P", " P" ]
+, [ 155, "F701B9EC-644A-4477-A357-4D388A2A5AB1", 155, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "09X350", null, null, null, null, null, null, "79", "59", "41", "85", "74", null, null, null, null, null, null ]
+, [ 156, "FD1D8AB9-31A8-42CD-BF79-39BF62796BFC", 156, 1437666515, "399231", 1437666515, "399231", null, "09X365", "98", "86", "42", "99", "91", "60", "79", "59", "41", "85", "96", "2012-2013", "WD", " P", "WD", "WD", " P" ]
+, [ 157, "E9C0A8EB-04A3-4E4C-B6D2-0CABAED7EDD8", 157, 1437666515, "399231", 1437666515, "399231", null, "09X403", "88", "50", "45", "84", "68", "33", "79", "59", "41", "86", "79", null, null, null, null, null, null ]
+, [ 158, "BDD5EF8D-41C8-4553-8A5E-289831389EA9", 158, 1437666515, "399231", 1437666515, "399231", null, "09X404", "73", "62", "27", "75", "50", "40", "79", "59", "41", "54", "79", "2011-2012", " D", " D", " P", " P", " P" ]
+, [ 159, "0AA23F69-DCD6-43F2-B1D7-5080417A2009", 159, 1437666515, "399231", 1437666515, "399231", null, "09X412", "70", "43", "34", "73", "45", "23", "79", "59", "41", "76", "83", "2012-2013", " D", " D", " D", " D", " D" ]
+, [ 160, "BCE86102-307F-4B2A-A300-C8FB06CE56E1", 160, 1437666515, "399231", 1437666515, "399231", null, "09X413", "94", "88", "84", "89", "83", "69", "79", "59", "41", "46", "75", "2010-2011", "WD", " D", " P", "WD", " P" ]
+, [ 161, "E7ED0665-1440-43E6-A4D9-255268173945", 161, 1437666515, "399231", 1437666515, "399231", null, "09X505", "71", "84", "66", "82", "77", "70", "79", "59", "41", "71", "71", "2012-2013", " P", " D", " P", " P", " P" ]
+, [ 162, "8E29CBF9-8E75-43BF-9A86-6951139B02F5", 162, 1437666515, "399231", 1437666515, "399231", null, "09X517", "66", "69", "49", "77", "72", "32", "79", "59", "41", "70", "87", "2012-2013", " D", " D", " P", "WD", " P" ]
+, [ 163, "006EDCC5-02AA-4560-BC93-6293781C29A7", 163, 1437666515, "399231", 1437666515, "399231", null, "09X525", "74", "57", "48", "57", "61", "37", "79", "59", "41", "66", "67", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 164, "F8903F80-6181-48A0-B284-611696CAB52D", 164, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997698\" : \"N/A\",\n    \"29997699\" : \"N/A\"\n  }\n}", "09X543", "87", "49", "41", "81", "62", "30", "79", "59", "41", null, null, null, null, null, null, null, null ]
+, [ 165, "90096A21-C06C-4FFF-9E7F-D3585BB9BB9C", 165, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "09X564", "94", null, null, "79", null, null, "79", "59", "41", "93", "80", null, null, null, null, null, null ]
+, [ 166, "1F08F50E-A301-4392-8926-E1646114681F", 166, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "09X568", null, null, null, null, null, null, "79", "59", "41", "88", "77", null, null, null, null, null, null ]
+, [ 167, "16CF2400-308F-4738-81CA-FC5326E31A2A", 167, 1437666515, "399231", 1437666515, "399231", null, "10X141", "78", "78", "67", "81", "83", "61", "79", "59", "41", "74", "70", "2010-2011", " P", " P", " P", " P", " P" ]
+, [ 168, "95155C73-FF47-4CB9-98BA-50414AA36359", 168, 1437666515, "399231", 1437666515, "399231", null, "10X213", "80", "74", "44", "78", "60", "50", "79", "59", "41", "65", "67", "2013-2014", " D", " D", " D", " P", " P" ]
+, [ 169, "43F52F4E-BB52-4E19-B2FE-915B8AA64885", 169, 1437666515, "399231", 1437666515, "399231", null, "10X225", "84", "83", "67", "77", "76", "72", "79", "59", "41", "74", "78", "2012-2013", " P", " D", " P", " P", " P" ]
+, [ 170, "1F951639-DE1F-4ED5-9D2A-56EA58CDFCA7", 170, 1437666515, "399231", 1437666515, "399231", null, "10X237", "84", "67", "66", "79", "68", "53", "79", "59", "41", "59", "77", "2012-2013", " P", " D", " P", " P", " P" ]
+, [ 171, "21FAFD21-8537-4E24-AD2E-6DA6EA7FA351", 171, 1437666515, "399231", 1437666515, "399231", null, "10X243", "75", "74", "38", "79", "65", "40", "79", "59", "41", "74", "69", "2012-2013", " D", " D", " D", " D", " D" ]
+, [ 172, "94E1369B-A3DB-4F94-8A04-FE4B4472CFC6", 172, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "10X264", null, null, null, "90", null, null, "79", "59", "41", "85", "96", null, null, null, null, null, null ]
+, [ 173, "570C8F0D-8358-49CB-B71A-0AC7F9033770", 173, 1437666515, "399231", 1437666515, "399231", null, "10X268", "78", "48", "47", "83", "57", "40", "79", "59", "41", "90", "87", "2012-2013", " D", " D", " D", " P", " P" ]
+, [ 174, "F1C31BE5-F8F7-4D1E-91C7-3170EEFC4640", 174, 1437666515, "399231", 1437666515, "399231", null, "10X284", "62", "66", "47", "53", "65", "47", "79", "59", "41", "70", "74", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 175, "F78D4E30-9BF8-48D4-97F1-852B362BBABC", 175, 1437666515, "399231", 1437666515, "399231", null, "10X342", "86", "65", "38", "86", "61", "37", "79", "59", "41", "91", "89", "2012-2013", " D", " D", " D", " D", "WD" ]
+, [ 176, "1ADA5B4E-A31F-4915-8022-319B696D5DFA", 176, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "10X351", null, null, null, "79", null, null, "79", "59", "41", "78", "67", null, null, null, null, null, null ]
+, [ 177, "EC5D7622-B838-4102-9DDB-40B32B2FF32F", 177, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "10X353", null, null, null, "81", null, null, "79", "59", "41", "68", "60", null, null, null, null, null, null ]
+, [ 178, "2822BB6C-F616-4D72-BC07-21AD6B2042D4", 178, 1437666515, "399231", 1437666515, "399231", null, "10X368", "69", "69", "68", "74", "90", "58", "79", "59", "41", "73", "77", "2013-2014", " P", " P", " D", " P", " P" ]
+, [ 179, "8A32D75E-A66B-4E76-9B6C-F808B805AEC0", 179, 1437666515, "399231", 1437666515, "399231", null, "10X374", "86", "85", "61", "77", "83", "63", "79", "59", "41", "88", "91", "2011-2012", " P", " P", "WD", "WD", "WD" ]
+, [ 180, "D7B688E7-60EE-40DD-BAF7-BB4EDB7885F6", 180, 1437666515, "399231", 1437666515, "399231", null, "10X433", "73", "68", "30", "90", "72", "39", "79", "59", "41", "68", "69", "2013-2014", " D", " D", " D", " P", " D" ]
+, [ 181, "EC28E170-551E-4C92-9F2A-1F058AE5A10E", 181, 1437666515, "399231", 1437666515, "399231", null, "10X434", "86", "65", "34", "93", "70", "48", "79", "59", "41", "64", "82", null, null, null, null, null, null ]
+, [ 182, "2F679020-6593-437E-98BC-1A67F58A6E10", 182, 1437666515, "399231", 1437666515, "399231", null, "10X437", "88", "85", "33", "94", "77", "44", "79", "59", "41", "80", "84", "2013-2014", "WD", " P", " P", "WD", "WD" ]
+, [ 183, "980AED5B-3C70-480B-9CFC-93D5306A5852", 183, 1437666515, "399231", 1437666515, "399231", null, "10X438", "78", "38", "31", "71", "40", "22", "79", "59", "41", "73", "85", "2012-2013", " D", " D", " P", " D", " D" ]
+, [ 184, "DD28B364-4BA0-41C4-9221-93C4C7C28718", 184, 1437666515, "399231", 1437666515, "399231", null, "10X439", "78", "68", "45", "84", "75", "41", "79", "59", "41", "60", "72", "2011-2012", " P", " D", " D", " P", " P" ]
+, [ 185, "10B738EC-74ED-4A98-921B-E6D9074796D9", 185, 1437666515, "399231", 1437666515, "399231", null, "10X440", "53", "55", "34", "69", "45", "39", "79", "59", "41", "82", "58", "2013-2014", " D", " D", " D", " D", " D" ]
+, [ 186, "2F765EFA-3371-4333-82AC-B0790EE779A2", 186, 1437666515, "399231", 1437666515, "399231", null, "10X442", "78", "87", "54", "88", "89", "62", "79", "59", "41", "68", "74", "2013-2014", " D", " P", " D", " P", " D" ]
+, [ 187, "D2886C75-4F31-4204-AFF2-E3AF34BD1ABA", 187, 1437666515, "399231", 1437666515, "399231", null, "10X445", "100", "100", "100", "100", "100", "96", "79", "59", "41", "92", "90", null, null, null, null, null, null ]
+, [ 188, "994DB3CF-51B8-4F69-BD60-4CB2DA96375A", 188, 1437666515, "399231", 1437666515, "399231", null, "10X477", "92", "90", "74", "85", "91", "76", "79", "59", "41", "84", "73", null, null, null, null, null, null ]
+, [ 189, "18BA4A9E-13D2-4E30-B136-CE18FAB50248", 189, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "10X524", "43", null, null, "46", null, null, "79", "59", "41", "84", "80", "2013-2014", " P", " D", " D", " P", " P" ]
+, [ 190, "B78FC0B1-E587-4622-805C-F8BB78DC2AD8", 190, 1437666515, "399231", 1437666515, "399231", null, "10X546", "74", "74", "50", "60", "71", "54", "79", "59", "41", "79", "63", "2013-2014", " P", " D", " D", " P", " P" ]
+, [ 191, "12E3E6AF-4CAD-41EE-B7CC-9C87D3A28048", 191, 1437666515, "399231", 1437666515, "399231", null, "10X549", "76", "57", "37", "77", "63", "29", "79", "59", "41", "50", "74", "2011-2012", " P", " P", "WD", "WD", "WD" ]
+, [ 192, "75D154CE-B110-42C4-89DD-803E3442E9AA", 192, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "10X565", "89", null, null, "83", null, null, "79", "59", "41", "78", "87", null, null, null, null, null, null ]
+, [ 193, "E017EC3A-40AF-416A-B24F-9115C1B49198", 193, 1437666515, "399231", 1437666515, "399231", null, "10X696", "98", "100", "99", "99", "100", "99", "79", "59", "41", "72", "96", null, null, null, null, null, null ]
+, [ 194, "9D8048FB-6CF5-4904-B1DC-07AC6F4EA5F0", 194, 1437666515, "399231", 1437666515, "399231", null, "11X249", "78", "98", "67", "85", "97", "67", "79", "59", "41", "35", "83", null, null, null, null, null, null ]
+, [ 195, "3DA55069-7C7A-43B0-AE87-6B453E3FF33D", 195, 1437666515, "399231", 1437666515, "399231", null, "11X253", "81", "54", "27", "81", "62", "18", "79", "59", "41", "82", "81", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 196, "24C2F872-74CC-4359-A3D4-0F54EEBE7F4F", 196, 1437666515, "399231", 1437666515, "399231", null, "11X265", "81", "66", "39", "74", "69", "41", "79", "59", "41", "63", "72", "2012-2013", " P", " D", " P", " P", " P" ]
+, [ 197, "F9FD589C-9278-43DE-BE0E-0780DAC104CB", 197, 1437666515, "399231", 1437666515, "399231", null, "11X270", "80", "74", "34", "71", "68", "43", "79", "59", "41", "44", "57", "2011-2012", " D", " D", " D", " D", " D" ]
+, [ 198, "32673D03-1868-47B4-924B-C99FD3DC910A", 198, 1437666515, "399231", 1437666515, "399231", null, "11X275", "86", "85", "67", "59", "85", "53", "79", "59", "41", "79", "81", null, null, null, null, null, null ]
+, [ 199, "632D02F6-32B6-4E57-B313-B5A582D5C53A", 199, 1437666515, "399231", 1437666515, "399231", null, "11X288", "77", "89", "81", "90", "82", "72", "79", "59", "41", "81", "76", "2010-2011", " P", " D", " D", "WD", " P" ]
+, [ 200, "DCCE1FB7-49C2-4103-81AD-4326A26AC1FA", 200, 1437666515, "399231", 1437666515, "399231", null, "11X290", "76", "66", "67", "75", "70", "62", "79", "59", "41", "61", "68", null, null, null, null, null, null ]
+, [ 201, "A12AAB7C-E0C4-439D-B36E-C10EDD8EAD54", 201, 1437666515, "399231", 1437666515, "399231", null, "11X299", "80", "63", "45", "76", "65", "49", "79", "59", "41", "56", "67", "2013-2014", " P", " D", " D", " P", " P" ]
+, [ 202, "6986160D-C3C9-4440-8009-FCD7054B01AF", 202, 1437666515, "399231", 1437666515, "399231", null, "11X418", "66", "58", "35", "63", "57", "34", "79", "59", "41", "62", "74", "2012-2013", " D", " D", " D", " D", " D" ]
+, [ 203, "DB0F256C-DB0C-4042-88F7-C7F7A0032DB8", 203, 1437666515, "399231", 1437666515, "399231", null, "11X455", "67", "58", "34", "71", "66", "34", "79", "59", "41", "85", "69", "2013-2014", " D", " D", " P", "WD", " D" ]
+, [ 204, "EBC14C43-D9DB-4853-83A9-F61F266645E7", 204, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "11X508", "85", null, null, "78", null, null, "79", "59", "41", "74", "76", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 205, "463247BA-09C6-4649-AC70-6223D930DBE7", 205, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "11X509", "61", null, null, "93", null, null, "79", "59", "41", "86", "85", "2013-2014", " D", " D", " D", " D", " D" ]
+, [ 206, "2DB88512-042A-4FC9-80A4-26AC7C8B731A", 206, 1437666515, "399231", 1437666515, "399231", null, "11X513", "85", "84", "57", "85", "75", "72", "79", "59", "41", "77", "84", null, null, null, null, null, null ]
+, [ 207, "F3D508D7-4DC3-4988-A21F-AE6387580D37", 207, 1437666515, "399231", 1437666515, "399231", null, "11X514", "74", "57", "24", "75", "72", "34", "79", "59", "41", "73", "73", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 208, "7F65301D-537A-4094-BCEC-818822EAC6B4", 208, 1437666515, "399231", 1437666515, "399231", null, "11X542", "81", "95", "83", "82", "89", "79", "79", "59", "41", "71", "77", "2010-2011", " P", " D", " P", "WD", " P" ]
+, [ 209, "800EB036-83F5-4305-8A75-070317188930", 209, 1437666515, "399231", 1437666515, "399231", null, "11X544", "83", "71", "57", "79", "73", "31", "79", "59", "41", "57", "65", null, null, null, null, null, null ]
+, [ 210, "C2AC1BA3-207E-48CE-86DD-E1724C170C28", 210, 1437666515, "399231", 1437666515, "399231", null, "11X545", "66", "74", "58", "74", "59", "36", "79", "59", "41", "46", "49", "2011-2012", " P", " D", " D", " P", " D" ]
+, [ 211, "3DEC4909-5CE3-4CEE-B458-50FDCC7478E2", 211, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "12X242", "79", null, null, "77", "80", null, "79", "59", "41", "76", "90", null, null, null, null, null, null ]
+, [ 212, "32424DEE-9080-4259-911E-E903FB6F3D50", 212, 1437666515, "399231", 1437666515, "399231", null, "12X248", "77", "71", "42", "78", "63", "59", "79", "59", "41", "73", "89", null, null, null, null, null, null ]
+, [ 213, "EE50655A-D80D-46DA-917E-AE58A04E1339", 213, 1437666515, "399231", 1437666515, "399231", null, "12X251", "78", "55", "41", "83", "65", "35", "79", "59", "41", "78", "90", "2012-2013", " P", " D", " P", " P", " P" ]
+, [ 214, "EF85F48A-F60E-4B39-A3BD-5AEA7966A1BF", 214, 1437666515, "399231", 1437666515, "399231", null, "12X267", "87", "73", "63", "98", "89", "43", "79", "59", "41", "91", "92", null, null, null, null, null, null ]
+, [ 215, "93C39F6C-70AB-42D5-8AC0-AC3101AA94A8", 215, 1437666515, "399231", 1437666515, "399231", null, "12X271", "77", "70", "46", "69", "80", "45", "79", "59", "41", "64", "70", "2013-2014", " D", " D", " D", " D", " P" ]
+, [ 216, "6A2CBC0A-95A6-4821-8524-91F243F9A920", 216, 1437666515, "399231", 1437666515, "399231", null, "12X278", "59", "43", "23", "54", "33", "17", "79", "59", "41", "58", "74", "2013-2014", " D", " D", " D", " D", " D" ]
+, [ 254, "54AA8B84-EED7-4595-B69E-945929589EEA", 254, 1437666515, "399231", 1437666515, "399231", null, "14K685", "90", "78", "34", "83", "64", "33", "82", "68", "50", "74", "94", null, null, null, null, null, null ]
+, [ 217, "D67F2D31-B715-4FC0-959F-0C1F7C9B9320", 217, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "12X372", "85", null, null, "76", "66", null, "79", "59", "41", "71", "80", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 218, "FE48EA9A-C4BD-401A-A895-071F98901D98", 218, 1437666515, "399231", 1437666515, "399231", null, "12X388", "91", "68", "31", "94", "76", "39", "79", "59", "41", "90", "94", "2013-2014", "WD", "WD", "WD", "WD", "WD" ]
+, [ 219, "2350A2EF-C1A2-4D11-A88E-DF28C5927B1F", 219, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "12X478", "98", "97", null, "97", "90", "68", "79", "59", "41", "79", "88", "2011-2012", " P", " P", "WD", "WD", "WD" ]
+, [ 220, "9C5932C9-F77F-4BA5-8F03-9A6C577633ED", 220, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "12X479", "41", "60", null, "70", "46", "46", "79", "59", "41", "74", "84", "2013-2014", " D", " D", " P", "WD", " P" ]
+, [ 221, "1538180B-54B7-45F1-9FCB-71203F1843F5", 221, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "12X511", "91", null, null, "90", null, null, "79", "59", "41", "77", "73", "2013-2014", " P", " D", " D", "WD", " P" ]
+, [ 222, "5B539013-F3DF-4552-AD54-C6A8E9164A41", 222, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "12X521", "82", null, null, "80", null, null, "79", "59", "41", "76", "79", "2013-2014", " P", " D", " D", " P", " D" ]
+, [ 223, "58489075-F2E5-46D7-9165-BE8D2FE3F4FB", 223, 1437666515, "399231", 1437666515, "399231", null, "12X550", "70", "47", "29", "87", "63", "25", "79", "59", "41", "84", "80", "2013-2014", " D", " D", " D", " P", " P" ]
+, [ 224, "5B42CE07-EDDD-46E0-96EB-406AB83500DB", 224, 1437666515, "399231", 1437666515, "399231", null, "12X682", "74", "66", "44", "77", "66", "41", "79", "59", "41", "84", "85", null, null, null, null, null, null ]
+, [ 225, "C9740FD5-B0ED-4921-80A8-5A52181BA0BE", 225, 1437666515, "399231", 1437666515, "399231", null, "12X684", "65", "65", "38", "57", "62", "41", "79", "59", "41", "55", "71", null, null, null, null, null, null ]
+, [ 226, "F5797762-845B-4DB6-92F9-C6E9EEA1B280", 226, 1437666515, "399231", 1437666515, "399231", null, "12X692", "61", "45", "27", "60", "44", "28", "79", "59", "41", "52", "71", null, null, null, null, null, null ]
+, [ 227, "1E385AE1-5AD5-4649-B0A0-D59DCBBF7976", 227, 1437666515, "399231", 1437666515, "399231", null, "13K265", "83", "63", "44", "60", "66", "36", "82", "68", "50", "56", "71", "2013-2014", "WD", " P", " P", " P", " P" ]
+, [ 228, "983F1BB5-44B0-4CCD-B847-13F5909FABDC", 228, 1437666515, "399231", 1437666515, "399231", null, "13K350", "88", "49", "47", "76", "60", "32", "82", "68", "50", "65", "77", "2011-2012", " P", " P", " P", " P", " P" ]
+, [ 229, "2AC410A4-6B8F-445C-A3FE-123676ADE747", 229, 1437666515, "399231", 1437666515, "399231", null, "13K412", "81", "70", "44", "79", "78", "46", "82", "68", "50", "73", "80", "2011-2012", " P", " D", " P", " P", " P" ]
+, [ 230, "4780B329-E026-43B9-885F-07F24B44C104", 230, 1437666515, "399231", 1437666515, "399231", null, "13K419", "87", "69", "51", "84", "71", "44", "82", "68", "50", "33", "54", "2013-2014", " P", " D", " P", " D", " P" ]
+, [ 231, "E7CF0020-5F61-4877-9940-894578C0D68C", 231, 1437666515, "399231", 1437666515, "399231", null, "13K430", "99", "98", "83", "97", "98", "91", "82", "68", "50", "87", "88", "2011-2012", "WD", "WD", " D", " P", " D" ]
+, [ 232, "6B527392-80CE-4A1C-B7ED-A0E3111859E7", 232, 1437666515, "399231", 1437666515, "399231", null, "13K439", "98", "85", "64", "94", "89", "63", "82", "68", "50", "94", "97", null, null, null, null, null, null ]
+, [ 233, "6FDAE2C2-5E3D-4342-BB08-D6C6E69F9309", 233, 1437666515, "399231", 1437666515, "399231", null, "13K483", "87", "89", "82", "95", "88", "82", "82", "68", "50", "84", "79", "2012-2013", "WD", " P", "WD", "WD", "WD" ]
+, [ 234, "617A8B95-A78E-4047-B764-F99ED9F99758", 234, 1437666515, "399231", 1437666515, "399231", null, "13K499", "72", "71", "43", "64", "67", "62", "82", "68", "50", "43", "76", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 235, "EB6E21E6-0652-4D9B-B834-99E4940F2B8F", 235, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "13K527", "72", "78", null, "90", "91", "71", "82", "68", "50", "59", "71", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 236, "1F6C5D2D-4B45-43E8-B9A7-05318EF8E633", 236, 1437666515, "399231", 1437666515, "399231", null, "13K595", "99", "95", "82", "92", "98", "79", "82", "68", "50", "62", "94", null, null, null, null, null, null ]
+, [ 237, "FD43BD6D-CDEC-4443-BBD9-D3B70ACCB536", 237, 1437666515, "399231", 1437666515, "399231", null, "13K605", "75", "67", "33", "71", "79", "35", "82", "68", "50", "68", "65", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 238, "5C8E8291-78D9-4470-8447-36F7E65A4DBE", 238, 1437666515, "399231", 1437666515, "399231", null, "13K670", "91", "95", "76", "88", "95", "79", "82", "68", "50", "78", "83", "2010-2011", " P", " P", " P", " P", " P" ]
+, [ 239, "E423CFD9-6CB5-4A31-B176-D7E56DB6579B", 239, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "13K674", "89", "83", null, "85", "78", "42", "82", "68", "50", "80", "84", "2011-2012", " P", " P", " P", " P", " P" ]
+, [ 240, "18EC9C3A-E176-421B-BBF4-E5CFE582CA8A", 240, 1437666515, "399231", 1437666515, "399231", null, "14K071", "68", "48", "30", "74", "59", "35", "82", "68", "50", "79", "77", "2012-2013", " D", " D", " D", " P", " P" ]
+, [ 241, "9127F704-1B55-435E-B215-929EEF91C810", 241, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997692\" : \"N/A\"\n  }\n}", "14K322", "48", "20", "6", null, "20", "10", "82", "68", "50", "43", "73", "2013-2014", " D", " D", "UD", " D", " D" ]
+, [ 242, "B5313CD8-CFD5-4F65-95E1-9BBE6A7F7079", 242, 1437666515, "399231", 1437666515, "399231", null, "14K449", "95", "100", "87", "97", "99", "97", "82", "68", "50", "74", "94", "2011-2012", "WD", " P", "WD", "WD", "WD" ]
+, [ 243, "AA90C47E-653C-4F52-A643-CB4C68FF864B", 243, 1437666515, "399231", 1437666515, "399231", null, "14K454", "81", "49", "30", "86", "51", "22", "82", "68", "50", "61", "81", "2012-2013", " D", " D", " P", " P", " P" ]
+, [ 244, "E402FC76-48C8-4513-AE0A-8BC889A4ACE0", 244, 1437666515, "399231", 1437666515, "399231", null, "14K474", "72", "59", "44", "67", "59", "35", "82", "68", "50", "79", "72", "2013-2014", " D", " D", " P", " P", " D" ]
+, [ 245, "FF186FF7-4B1E-463E-A230-F0DD33BB89BB", 245, 1437666515, "399231", 1437666515, "399231", null, "14K477", "55", "43", "45", "70", "54", "27", "82", "68", "50", "80", "76", "2012-2013", " D", " D", " D", " D", " P" ]
+, [ 246, "C78CF06F-0A5B-4332-B9F0-FFDD0DECD41F", 246, 1437666515, "399231", 1437666515, "399231", null, "14K478", "80", "73", "50", "85", "76", "71", "82", "68", "50", "90", "85", null, null, null, null, null, null ]
+, [ 247, "5CC9E21B-06A9-4F34-86AB-2608C37B6570", 247, 1437666515, "399231", 1437666515, "399231", null, "14K488", "90", "74", "54", "87", "83", "54", "82", "68", "50", "70", "75", "2012-2013", " P", " D", " P", " P", "WD" ]
+, [ 248, "349FD92D-5401-4BB2-B1AA-DB7B6250CD40", 248, 1437666515, "399231", 1437666515, "399231", null, "14K558", "93", "90", "52", "90", "91", "52", "82", "68", "50", "97", "100", null, null, null, null, null, null ]
+, [ 249, "F02ECB90-6660-4D65-BDEB-4FECE37FD68C", 249, 1437666515, "399231", 1437666515, "399231", null, "14K561", "93", "89", "67", "95", "87", "66", "82", "68", "50", "80", "87", null, null, null, null, null, null ]
+, [ 250, "51A9CDAB-9182-4DA4-965B-9BFBCBE0E314", 250, 1437666515, "399231", 1437666515, "399231", null, "14K586", "74", "60", "35", "76", "46", "32", "82", "68", "50", "71", "74", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 251, "24651E55-3B41-4375-AFC9-81211A255F29", 251, 1437666515, "399231", 1437666515, "399231", null, "14K610", "59", "45", "38", "63", "49", "24", "82", "68", "50", "85", "86", "2012-2013", " D", " D", " D", " D", " D" ]
+, [ 252, "5DDF6F10-7067-4597-99E4-C961BB1C1472", 252, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "14K614", "86", null, null, "86", null, null, "82", "68", "50", "66", "86", "2013-2014", "WD", " P", "WD", "WD", "WD" ]
+, [ 253, "95237B29-C6A6-410D-890C-0985E1955E75", 253, 1437666515, "399231", 1437666515, "399231", null, "14K632", "92", "46", "31", "90", "53", "27", "82", "68", "50", "57", "80", "2013-2014", " P", " D", " D", " P", " P" ]
+, [ 255, "87AA5C39-FE64-4952-B68D-BC966DBCF049", 255, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "15K423", null, null, null, null, null, null, "82", "68", "50", "74", "85", "2013-2014", " D", " D", " P", "WD", "WD" ]
+, [ 256, "D90131AA-66E8-4ED7-9491-93FF0987D989", 256, 1437666515, "399231", 1437666515, "399231", null, "15K429", "88", "75", "54", "60", "54", "57", "82", "68", "50", "56", "73", "2011-2012", " D", " D", " P", " P", " P" ]
+, [ 257, "0B944276-E8DC-4731-95BF-978A48506EE5", 257, 1437666515, "399231", 1437666515, "399231", null, "15K448", "80", "87", "74", "67", "90", "70", "82", "68", "50", "72", "80", "2013-2014", "WD", "WD", "WD", "WD", "WD" ]
+, [ 258, "F169C7BE-43F1-4E13-89AC-BACE9DD87312", 258, 1437666515, "399231", 1437666515, "399231", null, "15K462", "60", "82", "53", "87", "85", "56", "82", "68", "50", "67", "78", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 259, "0AC559A8-5F80-406C-B2B0-F31F1DBE3B10", 259, 1437666515, "399231", 1437666515, "399231", null, "15K463", "77", "65", "42", "20", "61", "42", "82", "68", "50", "39", "62", "2013-2014", " P", " P", " D", " D", " D" ]
+, [ 260, "92172C74-90BF-4B06-8974-731CAC172C2F", 260, 1437666515, "399231", 1437666515, "399231", null, "15K464", "80", "39", "50", "90", "61", "36", "82", "68", "50", "64", "82", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 261, "8EBB0842-9D2E-45DA-B4B7-8178DB55959F", 261, 1437666515, "399231", 1437666515, "399231", null, "15K497", "72", "47", "52", "73", "66", "41", "82", "68", "50", "57", "71", "2013-2014", "WD", " P", "WD", " P", "WD" ]
+, [ 262, "AA45171B-3D93-456F-AAD4-5A81BE741295", 262, 1437666515, "399231", 1437666515, "399231", null, "15K519", "83", "79", "41", "83", "73", "48", "82", "68", "50", "84", "92", "2013-2014", " D", " D", " P", " P", " P" ]
+, [ 263, "427A9480-8B92-4840-8B66-9BF9A2D1C3DE", 263, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "15K592", "74", null, null, "79", null, null, "82", "68", "50", "83", "89", null, null, null, null, null, null ]
+, [ 264, "C5A4115E-B9B8-4D0A-9CD4-EA341E0E48CD", 264, 1437666515, "399231", 1437666515, "399231", null, "15K656", "83", "83", "59", "89", "79", "63", "82", "68", "50", "54", "78", "2010-2011", " P", " P", " P", " P", " P" ]
+, [ 265, "773875DA-9212-46D1-B7C0-95F09916F7BF", 265, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "15K667", "93", "71", null, "89", "70", "51", "82", "68", "50", "85", "88", "2011-2012", " P", "WD", "WD", "WD", "WD" ]
+, [ 266, "794093C6-994F-4B91-978C-A038542C2E8D", 266, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "15K684", "99", null, null, "97", null, null, "82", "68", "50", "83", "91", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 267, "B07168BA-E829-4E8E-B3E7-349492325A23", 267, 1437666515, "399231", 1437666515, "399231", null, "16K393", "71", "78", "19", "74", "65", "43", "82", "68", "50", "94", "98", "2011-2012", " P", " P", " P", " P", " P" ]
+, [ 268, "FE911585-49F4-44B7-BDB1-C4CA74F0F5AB", 268, 1437666515, "399231", 1437666515, "399231", null, "16K455", "55", "44", "19", "68", "42", "20", "82", "68", "50", "84", "82", "2012-2013", " D", " D", " D", " P", " D" ]
+, [ 269, "257470F2-B166-4236-8515-159096D7701B", 269, 1437666515, "399231", 1437666515, "399231", null, "16K498", "91", "59", "41", "83", "79", "33", "82", "68", "50", "73", "75", "2010-2011", " P", " P", " P", " P", " D" ]
+, [ 270, "650F39AC-08EE-4B34-9DB5-8E42E483136E", 270, 1437666515, "399231", 1437666515, "399231", null, "16K594", "82", "66", "31", "86", "62", "37", "82", "68", "50", "81", "92", "2013-2014", "WD", " P", "WD", "WD", " P" ]
+, [ 271, "3BBAD991-91E8-4AB4-8D49-548232828C68", 271, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "16K688", "52", "55", null, "71", "43", "26", "82", "68", "50", "45", "76", "2013-2014", " D", " D", " D", " D", " D" ]
+, [ 272, "5329E026-38CA-4736-AC38-B7018A40CCDB", 272, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997698\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997699\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "16K765", null, null, null, null, null, null, "82", "68", "50", null, null, null, null, null, null, null, null ]
+, [ 273, "1EEEBD91-DF4B-4A34-BBA7-690472DE8956", 273, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "17K122", "85", null, null, "79", null, null, "82", "68", "50", "65", "83", "2013-2014", " P", " P", " D", "WD", " P" ]
+, [ 274, "694113BE-C21F-4A35-AD3E-75A4511C49C4", 274, 1437666515, "399231", 1437666515, "399231", null, "17K382", "78", "71", "53", "68", "63", "47", "82", "68", "50", "59", "61", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 275, "FB4CBA96-6C20-4AEA-9417-7A41E3FB6509", 275, 1437666515, "399231", 1437666515, "399231", null, "17K408", "64", "46", "42", "67", "68", "24", "82", "68", "50", "57", "53", "2012-2013", " P", " D", " D", " P", " D" ]
+, [ 276, "52B79D80-039C-4F83-ADEC-AE3ED5F1FD3D", 276, 1437666515, "399231", 1437666515, "399231", null, "17K524", "83", "66", "43", "88", "57", "39", "82", "68", "50", "86", "82", "2011-2012", " P", " P", " P", " P", " P" ]
+, [ 277, "BFB1705B-868C-4D5E-8F7D-3A59ED728375", 277, 1437666515, "399231", 1437666515, "399231", null, "17K528", "83", "57", "52", "92", "55", "33", "82", "68", "50", "74", "82", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 278, "0B162A9C-5D1B-497B-9A0E-708D3C6A74C5", 278, 1437666515, "399231", 1437666515, "399231", null, "17K531", "88", "70", "58", "85", "82", "48", "82", "68", "50", "81", "79", "2010-2011", " D", " P", " P", "WD", " P" ]
+, [ 279, "07BF6692-AD45-490B-9909-9A072673D7A2", 279, 1437666515, "399231", 1437666515, "399231", null, "17K533", "85", "54", "44", "57", "63", "30", "82", "68", "50", "75", "59", "2013-2014", " P", " D", " D", "WD", " P" ]
+, [ 280, "D851BBAD-79C2-4930-9F8B-F48EA43A3ED4", 280, 1437666515, "399231", 1437666515, "399231", null, "17K537", "83", "68", "51", "85", "71", "46", "82", "68", "50", "77", "75", "2011-2012", " P", " D", " D", " D", " D" ]
+, [ 281, "47E278D7-F98D-4826-A43B-C9EAC17765C8", 281, 1437666515, "399231", 1437666515, "399231", null, "17K539", "86", "71", "38", "79", "75", "38", "82", "68", "50", "77", "71", null, null, null, null, null, null ]
+, [ 282, "B3A7EF37-57BE-4A7C-AAC1-26C981049D51", 282, 1437666515, "399231", 1437666515, "399231", null, "17K543", "95", "96", "97", "92", "95", "89", "82", "68", "50", "92", "86", "2010-2011", " P", " P", "WD", "WD", "WD" ]
+, [ 283, "C8C6120E-DFC3-4E2F-A2B2-96DB72CD831D", 283, 1437666515, "399231", 1437666515, "399231", null, "17K546", "93", "94", "81", "90", "93", "76", "82", "68", "50", "82", "78", null, null, null, null, null, null ]
+, [ 284, "8BE4791A-619B-4ED7-B98D-4081CBD23525", 284, 1437666515, "399231", 1437666515, "399231", null, "17K547", "87", "64", "42", "89", "78", "48", "82", "68", "50", "67", "67", "2012-2013", "WD", " P", " P", " P", " P" ]
+, [ 285, "C22B38F1-3504-4E9E-AE98-2E520276CEA5", 285, 1437666515, "399231", 1437666515, "399231", null, "17K548", "85", "68", "40", "82", "72", "38", "82", "68", "50", "71", "64", "2013-2014", " D", " D", " P", " P", " P" ]
+, [ 286, "73D38B53-33A2-4D30-A64C-07000CEB4EC6", 286, 1437666515, "399231", 1437666515, "399231", null, "17K590", "92", "96", "84", "90", "92", "72", "82", "68", "50", "67", "72", "2012-2013", "WD", " P", " P", "WD", " P" ]
+, [ 287, "3C251C4E-4294-4E8A-BF27-E88DAF0BC6DE", 287, 1437666515, "399231", 1437666515, "399231", null, "17K600", "69", "72", "58", "67", "77", "58", "82", "68", "50", "68", "56", "2012-2013", " D", " D", " D", " P", " D" ]
+, [ 288, "B4778D65-D003-4CF3-BB29-984FF95EF3DE", 288, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "17K745", "89", null, null, "96", null, null, "82", "68", "50", "77", "86", null, null, null, null, null, null ]
+, [ 289, "E053E8F6-06B5-4F0A-BBF0-FDACAF3C6385", 289, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "17K751", "70", null, null, "74", "71", null, "82", "68", "50", "64", "70", "2012-2013", " D", " D", " D", " P", " P" ]
+, [ 290, "9189DA5F-4B8B-4720-9E37-5F027803DC2D", 290, 1437666515, "399231", 1437666515, "399231", null, "18K563", "93", "89", "79", "97", "91", "77", "82", "68", "50", "86", "60", "2011-2012", " P", "WD", "WD", "WD", "WD" ]
+, [ 291, "0981BFAC-791F-474F-A810-991B794A73E7", 291, 1437666515, "399231", 1437666515, "399231", null, "18K566", "73", "51", "47", "82", "50", "36", "82", "68", "50", "62", "83", "2011-2012", " D", " D", " P", " P", " P" ]
+, [ 292, "41404BA6-B776-415A-98B8-CAF98E63D107", 292, 1437666515, "399231", 1437666515, "399231", null, "18K567", "71", "63", "45", "75", "66", "46", "82", "68", "50", "83", "81", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 293, "34995133-3F7C-4ECD-BEB3-47456CF6E01F", 293, 1437666515, "399231", 1437666515, "399231", null, "18K569", "80", "72", "53", "82", "78", "47", "82", "68", "50", "87", "80", "2011-2012", " P", " P", " P", " P", " P" ]
+, [ 294, "E1594155-B865-441C-9C34-9AB1C56C4769", 294, 1437666515, "399231", 1437666515, "399231", null, "18K576", "86", "87", "54", "93", "68", "56", "82", "68", "50", "86", "86", "2011-2012", " P", " P", "WD", "WD", "WD" ]
+, [ 295, "13778893-2D4B-467B-A84C-51D2DE1C7890", 295, 1437666515, "399231", 1437666515, "399231", null, "18K589", "84", "45", "45", "71", "55", "21", "82", "68", "50", "56", "81", "2012-2013", " P", " P", " P", " P", "WD" ]
+, [ 296, "A75717AD-816C-4F59-A4CC-E1EE868A45D8", 296, 1437666515, "399231", 1437666515, "399231", null, "18K617", "66", "68", "45", "82", "70", "51", "82", "68", "50", "68", "85", "2013-2014", " D", " D", " D", " P", " P" ]
+, [ 297, "1D98662C-D884-42E8-85D4-FF497BB09F18", 297, 1437666515, "399231", 1437666515, "399231", null, "18K629", "69", "65", "39", "68", "61", "37", "82", "68", "50", "74", "80", "2012-2013", " D", " D", " D", " D", " D" ]
+, [ 298, "311CF5B0-54B7-4A3A-8F23-29E2361CD864", 298, 1437666515, "399231", 1437666515, "399231", null, "18K633", "96", "93", "68", "96", "90", "60", "82", "68", "50", "66", "82", "2012-2013", "WD", " P", " P", "WD", "WD" ]
+, [ 299, "8D7C8718-8C18-41D9-AC0F-78ACDB4CC1B3", 299, 1437666515, "399231", 1437666515, "399231", null, "18K637", "86", "61", "41", "80", "68", "40", "82", "68", "50", "66", "69", "2013-2014", " P", " P", " P", " P", "WD" ]
+, [ 300, "753CC49C-577B-4C76-AFC9-A5368ACA6188", 300, 1437666515, "399231", 1437666515, "399231", null, "18K642", "77", "68", "27", "82", "61", "46", "82", "68", "50", "73", "79", "2012-2013", " P", " P", " D", " P", " P" ]
+, [ 301, "ADE00B73-F2C7-486B-A06B-09FCECB43649", 301, 1437666515, "399231", 1437666515, "399231", null, "19K404", "84", "65", "49", "85", "80", "49", "82", "68", "50", "76", "80", "2011-2012", "WD", "WD", "WD", "WD", "WD" ]
+, [ 302, "ECEA9C10-DB62-4C72-A98A-8EDBCD3AE57A", 302, 1437666515, "399231", 1437666515, "399231", null, "19K409", "86", "87", "62", "93", "93", "62", "82", "68", "50", "56", "80", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 303, "C4F6179D-2DDB-42A7-89E8-F41719D64947", 303, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "19K422", null, null, null, null, null, null, "82", "68", "50", "91", "86", null, null, null, null, null, null ]
+, [ 304, "691FF60C-132C-4919-96F4-6F0044B8D4C3", 304, 1437666515, "399231", 1437666515, "399231", null, "19K502", "83", "65", "15", "70", "72", "26", "82", "68", "50", "83", "78", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 305, "9618EB56-7D84-4D97-BC20-6DEDE172372F", 305, 1437666515, "399231", 1437666515, "399231", null, "19K504", "84", "57", "24", "68", "52", "25", "82", "68", "50", "80", "72", "2010-2011", "WD", "WD", " P", " P", "WD" ]
+, [ 306, "60079C3A-13C9-4BAC-8BEB-694013DECDCE", 306, 1437666515, "399231", 1437666515, "399231", null, "19K507", "85", "70", "37", "74", "71", "34", "82", "68", "50", "72", "75", "2012-2013", "WD", " P", " P", " P", " P" ]
+, [ 307, "54FE648E-C1AB-46A0-AF12-A3A0F458DC4A", 307, 1437666515, "399231", 1437666515, "399231", null, "19K510", "82", "65", "47", "62", "58", "48", "82", "68", "50", "53", "58", "2012-2013", " P", " D", " D", " D", " D" ]
+, [ 308, "CC14D23A-CA81-4893-B3C5-D531959F0D62", 308, 1437666515, "399231", 1437666515, "399231", null, "19K583", "81", "29", "25", "87", "44", "18", "82", "68", "50", "87", "82", "2013-2014", " P", " D", " D", " P", " P" ]
+, [ 309, "DFFAEA3A-DA37-41A6-B4F2-9FF6A3E309B1", 309, 1437666515, "399231", 1437666515, "399231", null, "19K615", "53", "67", "42", "47", "64", "37", "82", "68", "50", "60", "53", "2013-2014", " D", " D", " D", " D", " D" ]
+, [ 310, "144966D9-0688-41EE-B5EE-D589FC030A26", 310, 1437666515, "399231", 1437666515, "399231", null, "19K618", "90", "53", "53", "82", "67", "48", "82", "68", "50", "85", "81", "2013-2014", " P", " P", " P", "WD", " P" ]
+, [ 311, "C0F1E114-E17E-49D0-B124-5CE55575E417", 311, 1437666515, "399231", 1437666515, "399231", null, "19K639", "70", "50", "30", "63", "53", "27", "82", "68", "50", "77", "79", "2013-2014", " P", " D", " D", " P", " P" ]
+, [ 312, "40E858C0-1C5D-4E10-BC05-C87165832FA1", 312, 1437666515, "399231", 1437666515, "399231", null, "19K659", "77", "47", "34", "60", "50", "31", "82", "68", "50", "78", "80", "2013-2014", " P", " D", " D", " P", " P" ]
+, [ 313, "1DA9B5BC-B8F5-4182-8993-ECC150FFAC08", 313, 1437666515, "399231", 1437666515, "399231", null, "19K660", "78", "65", "30", "75", "50", "26", "82", "68", "50", "76", "81", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 314, "EEAB9EAF-EE83-463D-B721-8F0176698522", 314, 1437666515, "399231", 1437666515, "399231", null, "19K683", "85", "83", "48", "83", "84", "39", "82", "68", "50", "72", "78", "2011-2012", "WD", "WD", "WD", " P", "WD" ]
+, [ 315, "108AAC74-7147-4381-BC56-7953CAAD8F41", 315, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997698\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997699\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "19K764", null, null, null, null, null, null, "82", "68", "50", null, null, null, null, null, null, null, null ]
+, [ 316, "959C6850-60D1-4E67-ABB2-805D695964A3", 316, 1437666515, "399231", 1437666515, "399231", null, "20K445", "77", "68", "60", "81", "70", "54", "82", "68", "50", "80", "75", "2013-2014", " P", " D", " D", " P", " P" ]
+, [ 317, "483F44A7-C2FB-4FFC-9ACB-BC0A021852FE", 317, 1437666515, "399231", 1437666515, "399231", null, "20K485", "91", "83", "79", "89", "87", "70", "82", "68", "50", "84", "93", null, null, null, null, null, null ]
+, [ 318, "97E4FEAA-1DF7-464E-B840-21DAE241534F", 318, 1437666515, "399231", 1437666515, "399231", null, "20K490", "81", "70", "58", "81", "68", "58", "82", "68", "50", "85", "78", "2013-2014", " D", " D", " D", " P", " D" ]
+, [ 319, "9FCAEA40-4211-46E7-8529-FB2776FB9408", 319, 1437666515, "399231", 1437666515, "399231", null, "20K505", "70", "60", "49", "70", "58", "49", "82", "68", "50", "81", "82", "2011-2012", " P", " D", " P", " P", " P" ]
+, [ 320, "63E7B604-B831-4983-A5D5-25CC5E9E5D7B", 320, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "20K609", "83", null, null, "88", "95", null, "82", "68", "50", "77", "89", "2013-2014", " P", " P", " D", " P", " P" ]
+, [ 321, "8515A640-5E6C-4FEC-9F62-E60F118CE5FC", 321, 1437666515, "399231", 1437666515, "399231", null, "21K337", "81", "50", "41", "95", "61", "41", "82", "68", "50", "84", "82", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 322, "0C928CDD-9E94-4C36-9C8D-E59E91AE638C", 322, 1437666515, "399231", 1437666515, "399231", null, "21K344", "81", "78", "52", "75", "70", "61", "82", "68", "50", "64", "81", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 323, "6D4A9B84-1463-47AF-A5B4-B685F42FCE24", 323, 1437666515, "399231", 1437666515, "399231", null, "21K348", "79", "74", "57", "74", "83", "40", "82", "68", "50", "70", "72", "2012-2013", " D", " D", " D", " P", " P" ]
+, [ 324, "5A010201-A89A-45CC-8E55-06D41941D789", 324, 1437666515, "399231", 1437666515, "399231", null, "21K410", "76", "67", "55", "77", "69", "52", "82", "68", "50", "86", "77", "2012-2013", " P", " D", " P", " P", "WD" ]
+, [ 325, "B8C49E22-AD28-4B4A-861B-D61016B007A6", 325, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "21K468", "96", "91", null, "97", "93", "86", "82", "68", "50", "62", "68", "2010-2011", "WD", "WD", "WD", " P", "WD" ]
+, [ 326, "3C14E887-C1EF-42FD-8AA8-627154F67A56", 326, 1437666515, "399231", 1437666515, "399231", null, "21K525", "80", "78", "76", "81", "81", "67", "82", "68", "50", "85", "80", "2013-2014", " P", " D", " P", " P", " D" ]
+, [ 327, "787BF060-A66D-4839-B451-4292C2F6F6F5", 327, 1437666515, "399231", 1437666515, "399231", null, "21K540", "84", "74", "57", "86", "79", "56", "82", "68", "50", "83", "81", "2012-2013", " P", " D", " D", " P", " D" ]
+, [ 328, "52D50B42-A281-4C1D-A5E3-002900565796", 328, 1437666515, "399231", 1437666515, "399231", null, "21K559", "85", "91", "49", "93", "92", "40", "82", "68", "50", "72", "85", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 329, "18C46479-25E3-4EBB-AAF0-C6A235B5FE80", 329, 1437666515, "399231", 1437666515, "399231", null, "21K572", "92", "75", "56", "86", "81", "64", "82", "68", "50", "81", "89", "2012-2013", " P", " P", "WD", " P", "WD" ]
+, [ 330, "143F73CA-A5DA-417E-9218-32F869D4CC82", 330, 1437666515, "399231", 1437666515, "399231", null, "21K620", "54", "61", "38", "73", "57", "27", "82", "68", "50", "81", "74", "2012-2013", " P", " D", " D", "WD", " D" ]
+, [ 331, "24803C9A-2C74-404E-B534-457F1C45974A", 331, 1437666515, "399231", 1437666515, "399231", null, "21K690", "78", "76", "61", "83", "78", "55", "82", "68", "50", "55", "76", "2013-2014", " P", " D", " D", " D", " D" ]
+, [ 332, "4A55E82D-720C-4BB3-8475-F2186056ECBC", 332, 1437666515, "399231", 1437666515, "399231", null, "22K405", "92", "85", "74", "93", "89", "74", "82", "68", "50", "93", "82", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 333, "D62CD245-3237-4DDE-8EFE-C5158DA839F4", 333, 1437666515, "399231", 1437666515, "399231", null, "22K425", "80", "75", "60", "85", "76", "63", "82", "68", "50", "80", "70", "2013-2014", " D", " D", " P", "WD", " P" ]
+, [ 334, "E9B5E5DC-71BC-44F7-8247-E0CF68E594ED", 334, 1437666515, "399231", 1437666515, "399231", null, "22K535", "96", "96", "87", "92", "96", "91", "82", "68", "50", "72", "90", null, null, null, null, null, null ]
+, [ 335, "F6488756-3DD9-4F71-AC61-4D21CAD98804", 335, 1437666515, "399231", 1437666515, "399231", null, "22K555", "97", "97", "92", "97", "99", "90", "82", "68", "50", "37", "93", "2013-2014", "WD", "WD", " P", "WD", " P" ]
+, [ 336, "71569759-075D-4363-8BF6-D11DF944C42C", 336, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "22K611", null, null, null, "84", null, null, "82", "68", "50", "64", "77", null, null, null, null, null, null ]
+, [ 337, "CF2B59B8-4EC7-4415-87AD-93657C42FBFF", 337, 1437666515, "399231", 1437666515, "399231", null, "23K493", "66", "55", "49", "62", "56", "40", "82", "68", "50", "71", "72", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 338, "C40A9E96-E39A-4F33-9F89-5E71CD68D0A9", 338, 1437666515, "399231", 1437666515, "399231", null, "23K514", "68", "59", "46", "73", "53", "37", "82", "68", "50", "48", "69", null, null, null, null, null, null ]
+, [ 339, "F15F6AD4-B42C-40A9-BEEA-B8F5884E497E", 339, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "23K644", "57", null, null, "74", null, null, "82", "68", "50", "87", "79", "2012-2013", " P", " D", " P", "WD", " P" ]
+, [ 340, "354F08A3-BB53-4168-A265-3F24550E963E", 340, 1437666515, "399231", 1437666515, "399231", null, "23K697", "63", "73", "55", "74", "67", "47", "82", "68", "50", "51", "55", "2012-2013", " D", " D", " D", " D", " P" ]
+, [ 341, "BBF9492D-26F9-405C-ADED-B300D4D80955", 341, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "24Q236", null, null, null, "61", null, null, "85", "71", "56", "85", "84", null, null, null, null, null, null ]
+, [ 342, "8020C5D0-EF4D-443D-8BC0-21DAA18F9B69", 342, 1437666515, "399231", 1437666515, "399231", null, "24Q264", "94", "90", "83", "94", "91", "73", "85", "71", "56", "75", "92", null, null, null, null, null, null ]
+, [ 343, "FF11E6B6-B411-4689-A2EA-46536DE1BC9A", 343, 1437666515, "399231", 1437666515, "399231", null, "24Q267", "89", "80", "60", "88", "70", "52", "85", "71", "56", "48", "83", null, null, null, null, null, null ]
+, [ 344, "93F43B6F-8610-470B-B926-3E349601072A", 344, 1437666515, "399231", 1437666515, "399231", null, "24Q293", "93", "85", "59", "94", "80", "81", "85", "71", "56", "84", "97", "2013-2014", " P", " D", " D", "WD", " P" ]
+, [ 345, "82928D77-603E-49EF-990D-1AC88EBCA1E6", 345, 1437666515, "399231", 1437666515, "399231", null, "24Q296", "65", "42", "33", "90", "50", "27", "85", "71", "56", "83", "87", "2013-2014", " D", " D", " P", " P", " P" ]
+, [ 346, "8F45560E-2FF5-48DA-985F-F071C683AC6F", 346, 1437666515, "399231", 1437666515, "399231", null, "24Q299", "99", "96", "99", "99", "99", "86", "85", "71", "56", "90", "98", null, null, null, null, null, null ]
+, [ 347, "12D311A6-DC40-4EC8-84CF-B05AA537533C", 347, 1437666515, "399231", 1437666515, "399231", null, "24Q455", "82", "61", "49", "80", "65", "40", "85", "71", "56", "88", "86", "2012-2013", " D", " D", " D", " D", " D" ]
+, [ 348, "08D2C5FE-3032-455E-8CA3-6B44136EB2FF", 348, 1437666515, "399231", 1437666515, "399231", null, "24Q485", "70", "60", "37", "73", "58", "38", "85", "71", "56", "79", "76", "2013-2014", " P", " D", " P", "WD", " P" ]
+, [ 349, "AC41E4EE-4497-4D23-9D94-470D05E80841", 349, 1437666515, "399231", 1437666515, "399231", null, "24Q520", "83", "74", "69", "81", "70", "50", "85", "71", "56", "80", "88", "2013-2014", " P", " P", " P", " P", " D" ]
+, [ 350, "1DE5A9AA-8284-4EA6-9A74-31CB743A07FC", 350, 1437666515, "399231", 1437666515, "399231", null, "24Q530", "95", "70", "60", "91", "82", "64", "85", "71", "56", "88", "96", null, null, null, null, null, null ]
+, [ 351, "A9A84381-68CA-4E65-832D-86F7F41EA7A3", 351, 1437666515, "399231", 1437666515, "399231", null, "24Q550", "90", "83", "63", "91", "85", "58", "85", "71", "56", "75", "91", "2010-2011", "WD", " P", " P", "WD", " P" ]
+, [ 352, "D2994A34-07AE-4F2A-9E79-6DD6A5B8B050", 352, 1437666515, "399231", 1437666515, "399231", null, "24Q560", "91", "86", "68", "93", "82", "73", "85", "71", "56", "81", "93", "2012-2013", " D", " D", " D", " P", " D" ]
+, [ 353, "6112FF7B-0447-4FE9-A435-CDEA573FAB28", 353, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "24Q585", "99", null, null, "99", null, null, "85", "71", "56", "84", "85", "2013-2014", " P", " P", " P", "WD", " P" ]
+, [ 354, "0404E7C4-0644-4B4C-885A-9BBA7F96D6CB", 354, 1437666515, "399231", 1437666515, "399231", null, "24Q600", "87", "80", "55", "82", "80", "62", "85", "71", "56", "74", "82", "2011-2012", "WD", "WD", "WD", "WD", "WD" ]
+, [ 355, "664FC6B9-F826-40BA-B515-C192C3E76995", 355, 1437666515, "399231", 1437666515, "399231", null, "24Q610", "96", "88", "80", "95", "94", "82", "85", "71", "56", "81", "88", null, null, null, null, null, null ]
+, [ 356, "35B55277-B1D5-49EF-B7FC-A0842DDEB665", 356, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "25Q240", null, null, null, "93", null, null, "85", "71", "56", "64", "86", null, null, null, null, null, null ]
+, [ 357, "4E98AA0C-25D4-4386-BBD5-E6A6B65D51B1", 357, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "25Q241", null, null, null, "97", null, null, "85", "71", "56", "81", "94", null, null, null, null, null, null ]
+, [ 358, "1DB3770C-45C0-48D5-8723-E6881F17B400", 358, 1437666515, "399231", 1437666515, "399231", null, "25Q252", "89", "92", "90", "87", "93", "86", "85", "71", "56", "60", "85", "2013-2014", "WD", " P", " D", "WD", " D" ]
+, [ 359, "A14E1E2E-3AE1-4700-A456-D6AF6071F849", 359, 1437666515, "399231", 1437666515, "399231", null, "25Q263", "85", "70", "51", "71", "69", "58", "85", "71", "56", "88", "90", "2011-2012", " P", " P", " P", " P", " P" ]
+, [ 360, "0D414856-3011-432D-BEF6-F1E6D0C67A85", 360, 1437666515, "399231", 1437666515, "399231", null, "25Q281", "86", "92", "75", "87", "92", "80", "85", "71", "56", "71", "86", "2011-2012", "WD", " P", " P", "WD", "WD" ]
+, [ 361, "9C9D61E2-A1F1-41A7-833D-213E6F1A4EEE", 361, 1437666515, "399231", 1437666515, "399231", null, "25Q285", "98", "91", "76", "99", "95", "80", "85", "71", "56", "36", "84", "2011-2012", "WD", "WD", "WD", "WD", "WD" ]
+, [ 362, "BC484C35-9682-4DBC-80EA-F79153741241", 362, 1437666515, "399231", 1437666515, "399231", null, "25Q425", "80", "66", "47", "82", "66", "51", "85", "71", "56", "79", "75", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 363, "BEF94E10-D8F6-4152-B150-059A42B33EC9", 363, 1437666515, "399231", 1437666515, "399231", null, "25Q460", "68", "54", "41", "70", "57", "39", "85", "71", "56", "73", "67", "2013-2014", " D", " D", " D", " D", " P" ]
+, [ 364, "0B1787B4-EDF7-4223-B557-D4DD836FBFBB", 364, 1437666515, "399231", 1437666515, "399231", null, "25Q525", "100", "100", "100", "100", "100", "100", "85", "71", "56", "89", "97", null, null, null, null, null, null ]
+, [ 365, "52F795BF-DE3C-486A-B57C-961620C3CD52", 365, 1437666515, "399231", 1437666515, "399231", null, "25Q670", "89", "81", "75", "81", "82", "65", "85", "71", "56", "74", "90", "2013-2014", " P", "WD", "WD", "WD", " P" ]
+, [ 366, "CD6EF9D8-78B1-40CA-9B61-97C2848BF79F", 366, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997698\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997699\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "26Q315", null, null, null, null, null, null, "85", "71", "56", null, null, null, null, null, null, null, null ]
+, [ 367, "E2C6957A-57C5-40B2-AE2C-F92AC94A9BBA", 367, 1437666515, "399231", 1437666515, "399231", null, "26Q415", "82", "87", "73", "87", "84", "76", "85", "71", "56", "83", "75", "2013-2014", " P", " P", " D", " P", " D" ]
+, [ 368, "EC26ECE9-2E0A-46EE-A823-15D57FDEEDC5", 368, 1437666515, "399231", 1437666515, "399231", null, "26Q430", "92", "86", "77", "93", "86", "74", "85", "71", "56", "95", "93", "2011-2012", " P", " P", " P", " P", "WD" ]
+, [ 369, "FE351660-ED90-4D9C-912A-5CE890FB338F", 369, 1437666515, "399231", 1437666515, "399231", null, "26Q435", "76", "53", "40", "65", "54", "45", "85", "71", "56", "70", "55", "2012-2013", " D", " D", " D", " D", " D" ]
+, [ 370, "D7B09A86-3C1D-4CA1-9DE4-A9FAD1BF57E2", 370, 1437666515, "399231", 1437666515, "399231", null, "26Q495", "97", "92", "77", "97", "91", "79", "85", "71", "56", "80", "78", null, null, null, null, null, null ]
+, [ 371, "06981CAD-5CDC-4F83-96A2-585D089807E8", 371, 1437666515, "399231", 1437666515, "399231", null, "26Q566", "82", "90", "74", "86", "90", "74", "85", "71", "56", "65", "77", "2012-2013", "WD", " P", "WD", "WD", " P" ]
+, [ 372, "2654138D-DD22-40AD-AB53-A76EF92E76FF", 372, 1437666515, "399231", 1437666515, "399231", null, "27Q260", "79", "52", "40", "66", "59", "38", "85", "71", "56", "55", "72", "2013-2014", " D", " D", " D", " P", " D" ]
+, [ 373, "C4C4D51A-BF8A-4574-9587-8E9A601F0FC0", 373, 1437666515, "399231", 1437666515, "399231", null, "27Q262", "89", "86", "61", "99", "97", "66", "85", "71", "56", "82", "88", "2011-2012", "WD", " P", " P", " P", " P" ]
+, [ 374, "823EA0F0-DFFB-4581-A9CD-49BA9BE25FA9", 374, 1437666515, "399231", 1437666515, "399231", null, "27Q302", "76", "61", "46", "84", "72", "28", "85", "71", "56", "78", "75", "2013-2014", " D", " D", " D", " D", " P" ]
+, [ 375, "A49E5299-7742-42D7-B37F-023777B06811", 375, 1437666515, "399231", 1437666515, "399231", null, "27Q308", "91", "90", "65", "89", "95", "72", "85", "71", "56", "77", "86", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 376, "34D569DE-B939-4968-ADB4-76B574C36BED", 376, 1437666515, "399231", 1437666515, "399231", null, "27Q309", "69", "65", "67", "81", "59", "55", "85", "71", "56", "80", "71", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 377, "BAE2C806-B369-4142-B254-0D136B10ED9D", 377, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997698\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997699\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "27Q314", null, null, null, null, null, null, "85", "71", "56", null, null, null, null, null, null, null, null ]
+, [ 378, "6CE36846-9B8F-4782-BD0C-83739C25CA74", 378, 1437666515, "399231", 1437666515, "399231", null, "27Q323", "98", "100", "94", "100", "100", "98", "85", "71", "56", "91", "98", null, null, null, null, null, null ]
+, [ 379, "732DFB73-C150-47D2-AEBE-D35C6D4D7905", 379, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "27Q324", "76", null, null, "69", "57", null, "85", "71", "56", "58", "63", "2012-2013", " P", "WD", " P", " P", " P" ]
+, [ 380, "FD9B22F2-8776-480D-A452-3A46A3234218", 380, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997698\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997699\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "27Q334", null, null, null, null, null, null, "85", "71", "56", null, null, null, null, null, null, null, null ]
+, [ 381, "B4D1F0EB-818A-47CB-8487-345A072FEC1A", 381, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "27Q351", "70", null, null, "72", null, null, "85", "71", "56", "57", "50", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 382, "559BA322-AEAC-42EE-AA52-BE4DB0394F7E", 382, 1437666515, "399231", 1437666515, "399231", null, "27Q400", "31", "39", "24", "66", "40", "24", "85", "71", "56", "59", "57", "2012-2013", " D", " D", " D", " D", " P" ]
+, [ 383, "9A65E18D-D404-4DB0-82F4-B4D5C8C22673", 383, 1437666515, "399231", 1437666515, "399231", null, "27Q475", "73", "58", "39", "74", "52", "36", "85", "71", "56", "80", "78", "2013-2014", " D", " P", " D", " P", " D" ]
+, [ 384, "52080402-00FF-494C-A6F8-095517258CFA", 384, 1437666515, "399231", 1437666515, "399231", null, "27Q480", "78", "52", "40", "76", "55", "34", "85", "71", "56", "76", "70", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 385, "3D50B3E7-35A4-4941-8579-DD32FCACE4D9", 385, 1437666515, "399231", 1437666515, "399231", null, "27Q650", "97", "98", "82", "99", "95", "74", "85", "71", "56", "70", "89", "2011-2012", "WD", " P", " P", " P", " P" ]
+, [ 386, "02670083-4318-4C8A-8754-44D8C978D121", 386, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "28Q167", "97", null, null, "96", null, null, "85", "71", "56", "85", "86", "2012-2013", "WD", " P", " P", "WD", "WD" ]
+, [ 387, "6251A555-89E9-45E8-9CB7-724C219904E2", 387, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "28Q284", "92", "94", null, "93", "96", "86", "85", "71", "56", "79", "86", "2011-2012", "WD", " P", " P", " P", " P" ]
+, [ 388, "57406A84-8192-4574-856B-0D3F204F55B9", 388, 1437666515, "399231", 1437666515, "399231", null, "28Q310", "93", "80", "63", "90", "80", "68", "85", "71", "56", "69", "81", "2013-2014", " P", " P", " D", " P", " D" ]
+, [ 389, "CCF372D7-90C9-4225-AB88-6B6779AF306B", 389, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "28Q325", "90", null, null, "93", "83", null, "85", "71", "56", "77", "85", "2012-2013", " P", " P", " D", " P", " P" ]
+, [ 390, "2D000C12-7E07-4AA2-920E-0FDAC3EF7BC6", 390, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "28Q328", "83", null, null, "88", "82", null, "85", "71", "56", "85", "90", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 391, "A7E209D2-3CBC-4462-B936-8F54AF88D0A4", 391, 1437666515, "399231", 1437666515, "399231", null, "28Q350", "86", "95", "80", "81", "82", "78", "85", "71", "56", "79", "82", "2013-2014", " P", " P", " P", "WD", " P" ]
+, [ 392, "B910E3A5-4307-4322-A184-3BCA16325EDB", 392, 1437666515, "399231", 1437666515, "399231", null, "28Q440", "88", "86", "69", "88", "84", "72", "85", "71", "56", "86", "84", null, null, null, null, null, null ]
+, [ 393, "E56C2089-635E-4450-9AB1-779092E980DA", 393, 1437666515, "399231", 1437666515, "399231", null, "28Q505", "83", "72", "56", "85", "74", "60", "85", "71", "56", "95", "89", "2013-2014", "WD", "WD", " P", "WD", "WD" ]
+, [ 394, "7726F56A-E0AA-4912-A1BD-0B8A5DE9D96C", 394, 1437666515, "399231", 1437666515, "399231", null, "28Q620", "93", "84", "71", "85", "88", "67", "85", "71", "56", "83", "78", null, null, null, null, null, null ]
+, [ 395, "11295978-3623-4423-8F5F-D64CC636A6FF", 395, 1437666515, "399231", 1437666515, "399231", null, "28Q680", "100", "97", "83", "97", "95", "91", "85", "71", "56", "31", "79", "2013-2014", "WD", " P", "WD", "WD", "WD" ]
+, [ 396, "EAF8A4B5-D79B-4CFB-86CA-738ED40ADE39", 396, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "28Q686", "87", null, null, "89", "89", null, "85", "71", "56", "80", "90", "2012-2013", " P", " P", "WD", "WD", " P" ]
+, [ 397, "03D69EC1-7E06-4B16-B030-2B267868CE78", 397, 1437666515, "399231", 1437666515, "399231", null, "28Q687", "100", "99", "84", "99", "100", "89", "85", "71", "56", "56", "95", null, null, null, null, null, null ]
+, [ 398, "790C2C25-5E4A-4077-8DDA-BD033E04E9D8", 398, 1437666515, "399231", 1437666515, "399231", null, "28Q690", "65", "76", "58", "57", "74", "50", "85", "71", "56", "60", "65", "2012-2013", " D", " D", " D", " P", " D" ]
+, [ 399, "92F34138-3F71-46A1-9473-08BDC7EE6DB8", 399, 1437666515, "399231", 1437666515, "399231", null, "28Q896", "90", "87", "93", "97", "85", "79", "85", "71", "56", "58", "82", "2013-2014", " P", " D", " D", "WD", " D" ]
+, [ 437, "6EE26DB3-9663-42D6-9050-1E92E48C7FFC", 437, 1437666515, "399231", 1437666515, "399231", null, "32K556", "65", "70", "23", "80", "68", "38", "82", "68", "50", "70", "86", null, null, null, null, null, null ]
+, [ 400, "2B43D7A8-884B-4736-AF0E-ED439B972F4C", 400, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "29Q243", null, null, null, "86", null, null, "85", "71", "56", "90", "80", null, null, null, null, null, null ]
+, [ 401, "0B58AC33-170C-4B78-9D6A-E0C1A9CEDA3E", 401, 1437666515, "399231", 1437666515, "399231", null, "29Q248", "91", "67", "36", "86", "66", "32", "85", "71", "56", "60", "72", null, null, null, null, null, null ]
+, [ 402, "3FC3FCE8-EF14-4698-A6C5-83160A2204F0", 402, 1437666515, "399231", 1437666515, "399231", null, "29Q259", "74", "75", "51", "79", "81", "59", "85", "71", "56", "75", "67", "2013-2014", " D", " D", " D", " P", " D" ]
+, [ 403, "23DED2DC-ACDA-4A49-AED9-B5B5F8EFA221", 403, 1437666515, "399231", 1437666515, "399231", null, "29Q265", "89", "83", "46", "77", "85", "49", "85", "71", "56", "72", "67", null, null, null, null, null, null ]
+, [ 404, "7B3DA823-117C-4128-BB8A-F9197655C618", 404, 1437666515, "399231", 1437666515, "399231", null, "29Q272", "81", "80", "50", "80", "84", "56", "85", "71", "56", "54", "66", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 405, "5912C8B1-3EAB-4DED-9D90-30E90FAEB2DB", 405, 1437666515, "399231", 1437666515, "399231", null, "29Q283", "84", "80", "62", "88", "81", "54", "85", "71", "56", "88", "82", "2013-2014", " P", "WD", " P", "WD", "WD" ]
+, [ 406, "11C5EABF-BA6C-42E5-96C3-D9E0971EF8AB", 406, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997698\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997699\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997692\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "29Q313", null, null, null, null, null, null, "85", "71", "56", null, null, null, null, null, null, null, null ]
+, [ 407, "EFEBFF17-9108-49E0-94DF-4F9CBB4D7B3D", 407, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "29Q326", "92", null, null, "94", "80", null, "85", "71", "56", "63", "69", "2012-2013", " P", " P", " P", " P", " D" ]
+, [ 408, "D5F54933-B6A3-4B48-9122-C482261B91E0", 408, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "29Q327", null, null, null, "72", null, null, "85", "71", "56", "58", "63", "2012-2013", " P", " D", " P", " P", " P" ]
+, [ 409, "1EDCB298-520F-40CF-BA85-E4AAB3554FE0", 409, 1437666515, "399231", 1437666515, "399231", null, "29Q492", "87", "69", "55", "80", "66", "50", "85", "71", "56", "71", "68", "2012-2013", " P", " P", " P", " P", " P" ]
+, [ 410, "16D5948E-7ABB-4CD7-88D2-7D33711BB071", 410, 1437666515, "399231", 1437666515, "399231", null, "29Q498", "78", "74", "51", "71", "78", "49", "85", "71", "56", "71", "70", "2013-2014", " P", " D", " P", " P", " P" ]
+, [ 411, "7256F150-3228-4717-909A-0521D46EAF1F", 411, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997689\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "30Q258", null, null, null, "93", null, null, "85", "71", "56", "69", "83", null, null, null, null, null, null ]
+, [ 412, "5DAF9A9B-D017-4503-A0EB-0EB45DEC375B", 412, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997691\" : \"N/A\"\n  }\n}", "30Q286", "99", "95", null, "98", "94", "90", "85", "71", "56", "81", "96", null, null, null, null, null, null ]
+, [ 413, "5B172096-723F-4DCB-8423-1316CA8C2A87", 413, 1437666515, "399231", 1437666515, "399231", null, "30Q301", "99", "97", "80", "98", "96", "76", "85", "71", "56", "87", "96", "2013-2014", "WD", "WD", "WD", "WD", " P" ]
+, [ 414, "18C85DE6-300D-4663-9C08-8AD9EC2FAF7B", 414, 1437666515, "399231", 1437666515, "399231", null, "30Q445", "83", "66", "44", "81", "69", "46", "85", "71", "56", "78", "73", "2012-2013", " D", " D", " D", " P", " D" ]
+, [ 415, "FA4FA299-049A-4FD8-8802-EEA33B20663A", 415, 1437666515, "399231", 1437666515, "399231", null, "30Q450", "79", "59", "40", "76", "63", "43", "85", "71", "56", "87", "75", "2013-2014", "WD", "WD", " P", "WD", "WD" ]
+, [ 416, "BCBC176E-2471-4A8B-9739-6C0CA1442DE6", 416, 1437666515, "399231", 1437666515, "399231", null, "30Q501", "97", "94", "85", "95", "98", "80", "85", "71", "56", "75", "96", null, null, null, null, null, null ]
+, [ 417, "CB6AFE3B-E419-43D3-98EA-F6DD2EE558C5", 417, 1437666515, "399231", 1437666515, "399231", null, "30Q502", "78", "67", "57", "82", "68", "49", "85", "71", "56", "73", "73", "2013-2014", " P", " D", " D", " P", " P" ]
+, [ 418, "1455069C-2A1C-4C6A-98C2-2B7B243DC987", 418, 1437666515, "399231", 1437666515, "399231", null, "30Q555", "77", "70", "45", "71", "62", "51", "85", "71", "56", "82", "90", null, null, null, null, null, null ]
+, [ 419, "22E8071C-34BF-4601-B339-E80F1407D85C", 419, 1437666515, "399231", 1437666515, "399231", null, "30Q575", "93", "92", "87", "93", "89", "91", "85", "71", "56", "70", "91", "2013-2014", "WD", " P", " P", "WD", " P" ]
+, [ 420, "464C88F2-0994-4C88-8F55-6234059DA5BA", 420, 1437666515, "399231", 1437666515, "399231", null, "30Q580", "100", "98", "92", "99", "98", "98", "85", "71", "56", "54", "96", "2013-2014", " P", " D", " P", "WD", " D" ]
+, [ 421, "71CFE09D-7500-403D-AE62-551ADC6E12CD", 421, 1437666515, "399231", 1437666515, "399231", null, "31R047", "91", "97", "95", "99", "90", "88", "84", "78", "60", "64", "92", null, null, null, null, null, null ]
+, [ 422, "4F68B9D9-9909-4FD7-9838-F5F28488371A", 422, 1437666515, "399231", 1437666515, "399231", null, "31R064", "89", "80", "68", "89", "91", "62", "84", "78", "60", "52", "89", "2013-2014", " D", " P", " P", " P", " P" ]
+, [ 423, "312FA1C4-9434-4D85-89AC-0BFF42F8A652", 423, 1437666515, "399231", 1437666515, "399231", null, "31R080", "90", "92", "79", "86", "91", "79", "84", "78", "60", "87", "85", "2012-2013", "WD", " P", "WD", "WD", "WD" ]
+, [ 424, "ABFCC6F1-2A15-4474-9D94-6C7E60E94E4D", 424, 1437666515, "399231", 1437666515, "399231", null, "31R440", "81", "73", "51", "75", "78", "54", "84", "78", "60", "79", "75", "2011-2012", "WD", " P", "WD", "WD", "WD" ]
+, [ 425, "12A1F5A2-4FF0-4529-BBFB-DE86FC14C0ED", 425, 1437666515, "399231", 1437666515, "399231", null, "31R445", "70", "61", "42", "75", "67", "43", "84", "78", "60", "82", "79", "2013-2014", " P", " P", " P", " P", " P" ]
+, [ 426, "63FAC0C4-E779-48AC-8E85-A53A07B4828D", 426, 1437666515, "399231", 1437666515, "399231", null, "31R450", "78", "79", "51", "73", "80", "56", "84", "78", "60", "86", "69", "2013-2014", "WD", " P", "WD", "WD", "WD" ]
+, [ 427, "E1C3C2AF-D02E-4ADB-871A-24A365C6EA74", 427, 1437666515, "399231", 1437666515, "399231", null, "31R455", "90", "83", "66", "90", "85", "66", "84", "78", "60", "91", "80", "2011-2012", "WD", " P", " P", "WD", "WD" ]
+, [ 428, "09AB22CC-43C5-42D9-B352-F2A931B8FB7E", 428, 1437666515, "399231", 1437666515, "399231", null, "31R460", "87", "81", "69", "89", "84", "70", "84", "78", "60", "89", "80", null, null, null, null, null, null ]
+, [ 429, "D0B07401-69C7-48B0-998E-7E5100EE99AC", 429, 1437666515, "399231", 1437666515, "399231", null, "31R600", "81", "60", "44", "81", "75", "42", "84", "78", "60", "72", "78", null, null, null, null, null, null ]
+, [ 430, "9482F77A-36A8-4354-BAD3-CC4005CBABA1", 430, 1437666515, "399231", 1437666515, "399231", null, "31R605", "100", "100", "100", "99", "100", "99", "84", "78", "60", "92", "99", null, null, null, null, null, null ]
+, [ 431, "88B8FD69-4B8C-45AE-882F-B2B714146824", 431, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997694\" : \"N/A\",\n    \"29997693\" : \"N/A\",\n    \"29997691\" : \"N/A\",\n    \"29997690\" : \"N/A\"\n  }\n}", "32K168", "84", null, null, "78", null, null, "82", "68", "50", "58", "64", "2013-2014", "WD", " P", "WD", "WD", " P" ]
+, [ 432, "9368CE99-6DD4-44BA-8BE9-466E3CBA7741", 432, 1437666515, "399231", 1437666515, "399231", null, "32K403", "84", "75", "37", "75", "62", "36", "82", "68", "50", "67", "76", null, null, null, null, null, null ]
+, [ 433, "B64F5A36-86BE-4CD8-8A76-B15CEF0CD74A", 433, 1437666515, "399231", 1437666515, "399231", null, "32K545", "77", "70", "42", "86", "59", "53", "82", "68", "50", "78", "88", "2012-2013", " D", " D", " D", " P", " D" ]
+, [ 434, "C9040C0B-EAF4-4AD4-8C42-B526504BA190", 434, 1437666515, "399231", 1437666515, "399231", null, "32K549", "88", "55", "34", "88", "69", "31", "82", "68", "50", "73", "85", "2013-2014", " P", " P", " D", " P", " P" ]
+, [ 435, "FC0D4369-BAB8-463C-A823-235C8E27E25A", 435, 1437666515, "399231", 1437666515, "399231", "{\n  \"invalidCells\" : {\n    \"29997698\" : \"N/A\",\n    \"29997699\" : \"N/A\"\n  }\n}", "32K552", "75", "51", "28", "72", "48", "31", "82", "68", "50", null, null, "2013-2014", " P", " P", " D", " P", "WD" ]
+, [ 436, "4659F9E0-589F-4FD0-8EC6-E6B1650FD9E0", 436, 1437666515, "399231", 1437666515, "399231", null, "32K554", "97", "97", "84", "100", "94", "74", "82", "68", "50", "92", "99", null, null, null, null, null, null ]
+ ]
+}
