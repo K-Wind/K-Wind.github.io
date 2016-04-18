@@ -44,7 +44,7 @@
 	d3.json("districts.json", function(json) {
 
 	var center = d3.geo.centroid(json)
-	var offset = [-300, 0];
+	var offset = [300, 0];
     //var projection = d3.geo.mercator().center(center)
       //    .translate(offset);
 	var projection = d3.geo.albers().translate(offset);
