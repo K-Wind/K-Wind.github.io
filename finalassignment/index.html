@@ -47,7 +47,7 @@
 	var offset = [w/2, h/2];
     //var projection = d3.geo.mercator().center(center)
       //    .translate(offset);
-	var projection = d3.geo.mercator();
+	var projection = d3.geo.albers();
 
 	var path = d3.geo.path()
 						.projection(projection);
