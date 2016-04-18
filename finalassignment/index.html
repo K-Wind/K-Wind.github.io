@@ -65,6 +65,124 @@
 
 	});
 	</script>
+	
+	
+	<br>
+	<br>
+	<br>
+	<div id="ass2c"></div>	
+	<script type="text/javascript">
+
+	var barw = 5500;
+	var barh = 1000;
+	
+	var focusScaleX;
+	var focusScaleY;
+	var totalnumber = 0;
+
+
+	var barsvg = d3.select("#ass2c")
+			.append("svg")
+			.attr("class", "barchart")
+			.attr("width", barw)
+			.attr("height", barh);
+			
+	
+	var highschoolDataset;
+	d3.json("HS-data.json", function(json) {
+			highschoolDataset = json["data"];
+			createChart();
+		});
+		
+	
+	function createChart(){
+		focusScaleX = d3.scale.ordinal()
+						.domain(d3.range(highschoolDataset.length))
+						.rangeRoundBands([0, barw], 0.05);
+		focusScaleY = d3.scale.linear()
+						.domain([0, d3.max(highschoolDataset, function(d){ return d["Students"]; })])
+						.range([0, barh-900]);
+		
+		//Create bars
+		barsvg.selectAll("rect")
+		   .data(highschoolDataset)	
+		   .enter()
+		   .append("rect")
+		   .attr("x", function(d, i) {
+				return focusScaleX(i);
+		   })
+		   .attr("y", function(d) {
+		   if(parseInt(d["Students"]) > 0){
+				totalnumber = totalnumber + parseInt(d["Students"]); //Getting total number of students in the schools
+				console.log(totalnumber);
+		   }
+				return barh - focusScaleY(d["Students"])-350;
+		   })
+		   .attr("width", focusScaleX.rangeBand())
+		   .attr("height", function(d) {
+				return focusScaleY(d["Students"]);
+		   })
+		   .attr("fill", function(d) {
+				return "rgb(0, 0, " + (d["Students"]) + ")";
+		   });
+		   
+		//Create labels
+		barsvg.selectAll("text")
+		   .data(highschoolDataset)
+		   .enter()
+		   .append("text")
+			.attr("transform", "rotate(-90)")
+		   .text(function(d) {
+				return d["Name"];
+		   })
+		   .attr("text-anchor", "end")
+		   .attr("y", function(d, i) {
+				return focusScaleX(i) + focusScaleX.rangeBand() / 2;
+		   })
+		   .attr("x", function(d) {
+				return -barh + 344;
+		   })
+		   .attr("font-family", "sans-serif")
+		   .attr("font-size", "10px")
+		   .attr("fill", "black");
+		   
+		   
+		   //Create more labels
+		barsvg.selectAll("text.Students")
+		   .data(highschoolDataset)
+		   .enter()
+		   .append("text")
+		   .attr("class", "Students")
+		   .text(function(d) {
+				return d["Students"];
+		   })
+		   .attr("text-anchor", "middle")
+		   .attr("x", function(d, i) {
+				return focusScaleX(i) + focusScaleX.rangeBand() / 2;
+		   })
+		   .attr("y", function(d) {
+				return barh - focusScaleY(d["Students"]) - 355;
+		   })
+		   .attr("font-family", "sans-serif")
+		   .attr("font-size", "11px")
+		   .attr("fill", "black");
+		   
+		   
+		barsvg.append("text")
+			.attr("class", "year")
+			.attr("text-anchor", "middle")
+			.attr("x", w/2)
+			.attr("y", barh/3)
+			.attr("font-family", "sans-serif")
+			.attr("font-size", "12px")
+			.text("Number of students in the schools of NYC. The total number of students are: " + totalnumber);
+		   
+			   
+	}
+	
+	
+	
+	</script>
 
 </body>
 </html
