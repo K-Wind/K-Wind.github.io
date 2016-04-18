@@ -61,7 +61,8 @@
            .data(json.features)
            .enter()
            .append("path")
-           .attr("d", path);
+           .attr("d", path)
+		   .style("fill", "steelblue");
 
 	});
 	</script>
@@ -79,6 +80,7 @@
 	var focusScaleX;
 	var focusScaleY;
 	var totalnumber = 0;
+	var schools = 0;
 
 
 	var barsvg = d3.select("#ass2c")
@@ -114,7 +116,7 @@
 		   .attr("y", function(d) {
 		   if(parseInt(d["Students"]) > 0){
 				totalnumber = totalnumber + parseInt(d["Students"]); //Getting total number of students in the schools
-				console.log(totalnumber);
+				schools = schools + 1; //Getting total number of schools
 		   }
 				return barh - focusScaleY(d["Students"])-350;
 		   })
@@ -175,7 +177,7 @@
 			.attr("y", barh/3)
 			.attr("font-family", "sans-serif")
 			.attr("font-size", "12px")
-			.text("Number of students in the schools of NYC. The total number of students are: " + totalnumber);
+			.text("Number of students in the "+schools+" schools of NYC. The total number of students are: " + totalnumber + " with an avarage of " + totalnumber/schools + " in each school");
 		   
 			   
 	}
