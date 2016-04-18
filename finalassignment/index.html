@@ -33,11 +33,19 @@
 	
 	
 	<br/>
-	<svg width="400" height="400" id="districtSVG"/>
 	
 	<script type="text/javascript">
-	var svg = d3.select(document.getElementById('districtSVG'))
+	
+	var w = 500;
+	var h = 300
+	
 	var path = d3.geo.path();
+	
+	var svg = d3.select("body")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+						
 	d3.json("districts.json", function(json) {
 
         svg.selectAll("path")
