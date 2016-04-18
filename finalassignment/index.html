@@ -44,10 +44,10 @@
 	d3.json("districts.json", function(json) {
 
 	var center = d3.geo.centroid(json)
-	var offset = [w/2, h/2];
+	var offset = [-300, 0];
     //var projection = d3.geo.mercator().center(center)
       //    .translate(offset);
-	var projection = d3.geo.albers().center(center);
+	var projection = d3.geo.albers().translate(offset);
 
 	var path = d3.geo.path()
 						.projection(projection);
