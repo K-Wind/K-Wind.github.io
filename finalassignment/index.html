@@ -45,11 +45,12 @@
 
 	var center = d3.geo.centroid(json)
 	var offset = [w/2, h/2];
-    var projection = d3.geo.mercator().center(center)
-          .translate(offset);
+    //var projection = d3.geo.mercator().center(center)
+      //    .translate(offset);
+	var projection = d3.geo.mercator();
 
 	var path = d3.geo.path();
-						//.projection(projection);
+						.projection(projection);
 	
 	var svg = d3.select("body")
 						.append("svg")
