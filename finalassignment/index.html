@@ -39,9 +39,12 @@
 	var w = 300;
 	var h = 300;
 	
-	var projection = d3.geo.albers()
-								.center([-40.80, 74])
-								.scale([4000]);
+	var center = d3.geo.centroid(json)
+      var scale  = 150;
+      var offset = [width/2, height/2];
+      var projection = d3.geo.mercator().scale(scale).center(center)
+          .translate(offset);
+
 	var path = d3.geo.path()
 						.projection(projection);
 	
