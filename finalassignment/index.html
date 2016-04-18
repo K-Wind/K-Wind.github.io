@@ -39,7 +39,8 @@
 	var w = 300;
 	var h = 300;
 	
-	var projection = projection.scale([2000]);
+	var projection = d3.geo.albers()
+								.scale([2000]);
 	var path = d3.geo.path()
 						.projection(projection);
 	
