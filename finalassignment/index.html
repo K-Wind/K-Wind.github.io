@@ -47,7 +47,7 @@
 	var offset = [300, 0];
     //var projection = d3.geo.mercator().center(center)
       //    .translate(offset);
-	var projection = d3.geo.conicEqualArea().scale([1500]).translate([h/2, w/2]);
+	var projection = d3.geo.conicEqualArea().scale([1500]).translate([480, 250]).center([-40.8, 73.8]});
 
 	var path = d3.geo.path()
 						.projection(projection);
