@@ -40,7 +40,7 @@
 	var h = 300;
 	
 	var projection = d3.geo.albers()
-								.translate([w, h/2])
+								.center([-40.80, 74]))
 								.scale([4000]);
 	var path = d3.geo.path()
 						.projection(projection);
