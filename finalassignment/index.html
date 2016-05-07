@@ -30,29 +30,30 @@
 	Multiple regression<br>
 	Desicion trees<br>
 	<br>
-	<b>What we need:</b> <br>
-	Map of NYC for geoplots <br>
-	Map of NYC with school districts <br>
-	
-	
 	<br>
+	<div id="numberOfSchoolsMap"></div>
 	<br>
-	<div id="ass2Map"></div>	
+	The left map is representing the number of graduate students. Right side is the number of students that goes to college after highschool.
+	<div>
+	<span id="gradPercentageMap"></span>	
+	<span id="colorscale"></span>	
+	<span id="collegePercentageMap"></span>	
+	</div>
 	<br>
 	<div id="barWithNumberOfStudents"></div>	
 	<br>
 	
+	<!-- Number of schools in districts -->
 	<script type="text/javascript">
-	
-	var w = 800;
-	var h = 800;
-	d3.json("HS-data.json", function(json) {
+	d3.json("Dataset.json", function(json) {
 		schooldata = json["data"];
+		var w = 800;
+		var h = 800;
 		
 		d3.json("districts.json", function(json) {
 			var colorScale = d3.scale.linear()
 				.range(['#c7e9c0', '#31a354']) // or use hex values
-				.domain([0, 30]);
+				.domain([5, 30]);
 	
 			var center = d3.geo.centroid(json)
 			var offset = [300, 0];
@@ -65,7 +66,7 @@
 			var path = d3.geo.path()
 								.projection(projection);
 			
-			var svg = d3.select("#ass2Map")
+			var svg = d3.select("#numberOfSchoolsMap")
 								.append("svg")
 								.attr("width", w)
 								.attr("height", h);
@@ -82,9 +83,159 @@
 							numofschools = numofschools + 1;
 						}
 					}
-					//document.write(numofschools+" schools in district " +json["features"][i]["properties"]["school_dist"]+ "<br>");
 					
-				   return colorScale(numofschools);
+				    return colorScale(numofschools);
+			   });
+
+		});
+	});
+	
+	</script>
+	
+	<!-- Number of graduates map -->
+	<script type="text/javascript">
+	
+	d3.json("Dataset.json", function(json) {
+		schooldata = json["data"];
+		
+		d3.json("districts.json", function(json) {
+				
+			var w = 700;
+			var h = 800;
+			var colorScale = d3.scale.linear()
+				.range(['#d62728', '#2ca02c']) // or use hex values
+				.domain([40, 80]);
+	
+			var center = d3.geo.centroid(json)
+			var offset = [300, 0];
+			var projection = d3.geo.conicEqualArea().scale([76000])
+								.translate([480, 250])
+								.center([22.15, 40.80])
+								.rotate([96, 0])
+								.parallels([29.5, 45.5]);
+
+			var path = d3.geo.path()
+								.projection(projection);
+			
+			var svg = d3.select("#gradPercentageMap")
+								.append("svg")
+								.attr("width", w)
+								.attr("height", h);
+								
+			svg.selectAll("path")
+			   .data(json.features)
+			   .enter()
+			   .append("path")
+			   .attr("d", path)
+			   .style("fill", function(d, i) { 
+					numofschools = 0;
+					gradPercentage = 0;
+					for(school in schooldata){
+						if(schooldata[school]["District"] === json["features"][i]["properties"]["school_dist"]){
+							numofschools = numofschools + 1;
+							gradPercentage = gradPercentage + parseInt(schooldata[school]["Graduation"]);
+						}
+					}
+					//document.write(numofschools+" schools in district " +json["features"][i]["properties"]["school_dist"]+ " have graduation percentage "+gradPercentage/numofschools+"<br>");
+					
+				    return colorScale(gradPercentage/numofschools);
+			   });
+
+		});
+	});
+	</script>
+	
+	<!-- Color scale -->
+	<script type="text/javascript">
+		var myScale = [30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100];
+		var scaleW = 83;
+		var scaleH = 600;
+		var thisColorScale = d3.scale.linear()
+				.range(['#d62728', '#2ca02c']) // or use hex values
+				.domain([40, 80]);
+			
+		var colorscaleSvg = d3.select("#colorscale")
+							.append("svg")
+							.attr("width", scaleW)
+							.attr("height", scaleH);
+		colorscaleSvg.selectAll("rect")
+			   .data(myScale)	
+			   .enter()
+			   .append("rect")
+			   .attr("x", 25)
+			   .attr("y", function(d, i) {
+					return i*25;
+			   })
+			   .attr("width", 25)
+			   .attr("height", 25)
+			   .attr("fill", function(d, i) {
+					return thisColorScale(myScale[i]);
+			   });
+		
+			//Create labels
+		colorscaleSvg.selectAll("text")
+			   .data(myScale)
+			   .enter()
+			   .append("text")
+			   .text(function(d) {
+					return d + "%";
+			   })
+			   .attr("x", 54)
+			   .attr("y", function(d, i) {
+					return i*25+17;
+			   })
+			   .attr("font-family", "sans-serif")
+			   .attr("font-size", "10px")
+			   .attr("fill", "black");
+		
+	</script>
+	
+	<!-- Number of graduates map -->
+	<script type="text/javascript">
+	
+	d3.json("Dataset.json", function(json) {
+		schooldata = json["data"];
+		
+		d3.json("districts.json", function(json) {
+			var w = 700;
+			var h = 800;
+			var colorScale = d3.scale.linear()
+				.range(['#d62728', '#2ca02c']) // or use hex values
+				.domain([40, 80]);
+	
+			var center = d3.geo.centroid(json)
+			var offset = [300, 0];
+			var projection = d3.geo.conicEqualArea().scale([76000])
+								.translate([480, 250])
+								.center([22.15, 40.80])
+								.rotate([96, 0])
+								.parallels([29.5, 45.5]);
+
+			var path = d3.geo.path()
+								.projection(projection);
+			
+			var svg = d3.select("#collegePercentageMap")
+								.append("svg")
+								.attr("width", w)
+								.attr("height", h);
+								
+			svg.selectAll("path")
+			   .data(json.features)
+			   .enter()
+			   .append("path")
+			   .attr("d", path)
+			   .style("fill", function(d, i) { 
+					numofschools = 0;
+					collegePercentage = 0;
+					for(school in schooldata){
+						if(schooldata[school]["District"] === json["features"][i]["properties"]["school_dist"]){
+							numofschools = numofschools + 1;
+							collegePercentage = collegePercentage + parseInt(schooldata[school]["College"]);
+						}
+					}
+					//document.write(numofschools+" schools in district " +json["features"][i]["properties"]["school_dist"]+ " have college percentage "+collegePercentage/numofschools+"<br>");
+					
+				    return colorScale(collegePercentage/numofschools);
 			   });
 
 		});
@@ -94,6 +245,8 @@
 	
 	</script>
 	
+	
+	<!-- barchart with students/school -->
 	<script type="text/javascript">
 
 	var barw = 5500;
@@ -113,7 +266,7 @@
 			
 	
 	var highschoolDataset;
-	d3.json("HS-data.json", function(json) {
+	d3.json("Dataset.json", function(json) {
 			highschoolDataset = json["data"];
 			focusScaleX = d3.scale.ordinal()
 						.domain(d3.range(highschoolDataset.length))
@@ -191,7 +344,7 @@
 				.attr("class", "year")
 				.attr("text-anchor", "middle")
 				.attr("x", w/2)
-				.attr("y", barh/3)
+				.attr("y", 150)
 				.attr("font-family", "sans-serif")
 				.attr("font-size", "12px")
 				.text("Number of students in the "+schools+" schools of NYC. The total number of students are: " + totalnumber + " with an avarage of " + totalnumber/schools + " in each school");
