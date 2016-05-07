@@ -8,70 +8,92 @@
 	</head>
 <body>
 	<h1>Project Assignment:</h1>
-	<br/>
-	<b>Datasets:</b><br/>
-	School, District, SAT, Number of students, Percentage of student that graduate<br/>
-	Programs, School, District <br/>
+	<br>
+	<b>Datasets:</b><br>
+	School, District, SAT, Number of students, Percentage of student that graduate<br>
+	Programs, School, District <br>
 	Afterschool programs <br>
 	School district data <br>
 	
-	<br/>
-	<br/>
-	<b>Graphs/plots</b><br/>
-	Scatterplot with SAT and number of students <br/>
-	Geoplot with school (size of points = students). Hover over a point to see SAT <br/>
-	Geoplot with school districts, colorcoded after SAT results </br>
-	Geoplot, KNN with programs <br/>
-	Barchart with number of school programs in NYC (maybe the 9 most and then one collecting all other programs) <br/>
+	<br>
+	<br>
+	<b>Graphs/plots</b><br>
+	Scatterplot with SAT and number of students <br>
+	Geoplot with school (size of points = students). Hover over a point to see SAT <br>
+	Geoplot with school districts, colorcoded after SAT results <br>
+	Geoplot, KNN with programs <br>
+	Barchart with number of school programs in NYC (maybe the 9 most and then one collecting all other programs) <br>
 	A lot of barcharts for each program in each district (or one barchart where you can choose the district from a menu) <br>
 	Piechart with each district showing percentage of programs in the district <br>
-	<br/>
-	<br/>
-	<b>What we need:</b> <br/>
-	Map of NYC for geoplots <br/>
-	Map of NYC with school districts <br/>
+	<br>
+	<br>
+	Multiple regression<br>
+	Desicion trees<br>
+	<br>
+	<b>What we need:</b> <br>
+	Map of NYC for geoplots <br>
+	Map of NYC with school districts <br>
 	
 	
-	<br/>
+	<br>
+	<br>
+	<div id="ass2Map"></div>	
+	<br>
+	<div id="barWithNumberOfStudents"></div>	
+	<br>
 	
 	<script type="text/javascript">
 	
 	var w = 800;
 	var h = 800;
+	d3.json("HS-data.json", function(json) {
+		schooldata = json["data"];
+		
+		d3.json("districts.json", function(json) {
+			var colorScale = d3.scale.linear()
+				.range(['#c7e9c0', '#31a354']) // or use hex values
+				.domain([0, 30]);
 	
-	
-						
-	d3.json("districts.json", function(json) {
+			var center = d3.geo.centroid(json)
+			var offset = [300, 0];
+			var projection = d3.geo.conicEqualArea().scale([76000])
+								.translate([480, 250])
+								.center([22.15, 40.80])
+								.rotate([96, 0])
+								.parallels([29.5, 45.5]);
 
-	var center = d3.geo.centroid(json)
-	var offset = [300, 0];
-    //var projection = d3.geo.mercator().center(center)
-      //    .translate(offset);
-	var projection = d3.geo.conicEqualArea().scale([76000]).translate([480, 250]).center([22.15, 40.80]).rotate([96, 0]).parallels([29.5, 45.5]);
+			var path = d3.geo.path()
+								.projection(projection);
+			
+			var svg = d3.select("#ass2Map")
+								.append("svg")
+								.attr("width", w)
+								.attr("height", h);
+								
+			svg.selectAll("path")
+			   .data(json.features)
+			   .enter()
+			   .append("path")
+			   .attr("d", path)
+			   .style("fill", function(d, i) { 
+					numofschools = 0;
+					for(school in schooldata){
+						if(schooldata[school]["District"] === json["features"][i]["properties"]["school_dist"]){
+							numofschools = numofschools + 1;
+						}
+					}
+					//document.write(numofschools+" schools in district " +json["features"][i]["properties"]["school_dist"]+ "<br>");
+					
+				   return colorScale(numofschools);
+			   });
 
-	var path = d3.geo.path()
-						.projection(projection);
-	
-	var svg = d3.select("body")
-						.append("svg")
-						.attr("width", w)
-						.attr("height", h);
-						
-        svg.selectAll("path")
-           .data(json.features)
-           .enter()
-           .append("path")
-           .attr("d", path)
-		   .style("fill", "steelblue");
-
+		});
 	});
+	
+						
+	
 	</script>
 	
-	
-	<br>
-	<br>
-	<br>
-	<div id="ass2c"></div>	
 	<script type="text/javascript">
 
 	var barw = 5500;
@@ -83,7 +105,7 @@
 	var schools = 0;
 
 
-	var barsvg = d3.select("#ass2c")
+	var barsvg = d3.select("#barWithNumberOfStudents")
 			.append("svg")
 			.attr("class", "barchart")
 			.attr("width", barw)
@@ -93,98 +115,88 @@
 	var highschoolDataset;
 	d3.json("HS-data.json", function(json) {
 			highschoolDataset = json["data"];
-			createChart();
-		});
-		
-	
-	function createChart(){
-		focusScaleX = d3.scale.ordinal()
+			focusScaleX = d3.scale.ordinal()
 						.domain(d3.range(highschoolDataset.length))
 						.rangeRoundBands([0, barw], 0.05);
-		focusScaleY = d3.scale.linear()
-						.domain([0, d3.max(highschoolDataset, function(d){ return d["Students"]; })])
-						.range([0, barh-900]);
-		
-		//Create bars
-		barsvg.selectAll("rect")
-		   .data(highschoolDataset)	
-		   .enter()
-		   .append("rect")
-		   .attr("x", function(d, i) {
-				return focusScaleX(i);
-		   })
-		   .attr("y", function(d) {
-		   if(parseInt(d["Students"]) > 0){
-				totalnumber = totalnumber + parseInt(d["Students"]); //Getting total number of students in the schools
-				schools = schools + 1; //Getting total number of schools
-		   }
-				return barh - focusScaleY(d["Students"])-350;
-		   })
-		   .attr("width", focusScaleX.rangeBand())
-		   .attr("height", function(d) {
-				return focusScaleY(d["Students"]);
-		   })
-		   .attr("fill", function(d) {
-				return "rgb(0, 0, " + (d["Students"]) + ")";
-		   });
-		   
-		//Create labels
-		barsvg.selectAll("text")
-		   .data(highschoolDataset)
-		   .enter()
-		   .append("text")
-			.attr("transform", "rotate(-90)")
-		   .text(function(d) {
-				return d["Name"];
-		   })
-		   .attr("text-anchor", "end")
-		   .attr("y", function(d, i) {
-				return focusScaleX(i) + focusScaleX.rangeBand() / 2;
-		   })
-		   .attr("x", function(d) {
-				return -barh + 344;
-		   })
-		   .attr("font-family", "sans-serif")
-		   .attr("font-size", "10px")
-		   .attr("fill", "black");
-		   
-		   
-		   //Create more labels
-		barsvg.selectAll("text.Students")
-		   .data(highschoolDataset)
-		   .enter()
-		   .append("text")
-		   .attr("class", "Students")
-		   .text(function(d) {
-				return d["Students"];
-		   })
-		   .attr("text-anchor", "middle")
-		   .attr("x", function(d, i) {
-				return focusScaleX(i) + focusScaleX.rangeBand() / 2;
-		   })
-		   .attr("y", function(d) {
-				return barh - focusScaleY(d["Students"]) - 355;
-		   })
-		   .attr("font-family", "sans-serif")
-		   .attr("font-size", "11px")
-		   .attr("fill", "black");
-		   
-		   
-		barsvg.append("text")
-			.attr("class", "year")
-			.attr("text-anchor", "middle")
-			.attr("x", w/2)
-			.attr("y", barh/3)
-			.attr("font-family", "sans-serif")
-			.attr("font-size", "12px")
-			.text("Number of students in the "+schools+" schools of NYC. The total number of students are: " + totalnumber + " with an avarage of " + totalnumber/schools + " in each school");
-		   
+			focusScaleY = d3.scale.linear()
+							.domain([0, d3.max(highschoolDataset, function(d){ return d["Students"]; })])
+							.range([0, barh-900]);
+			
+			//Create bars
+			barsvg.selectAll("rect")
+			   .data(highschoolDataset)	
+			   .enter()
+			   .append("rect")
+			   .attr("x", function(d, i) {
+					return focusScaleX(i);
+			   })
+			   .attr("y", function(d) {
+			   if(parseInt(d["Students"]) > 0){
+					totalnumber = totalnumber + parseInt(d["Students"]); //Getting total number of students in the schools
+					schools = schools + 1; //Getting total number of schools
+			   }
+					return barh - focusScaleY(d["Students"])-350;
+			   })
+			   .attr("width", focusScaleX.rangeBand())
+			   .attr("height", function(d) {
+					return focusScaleY(d["Students"]);
+			   })
+			   .attr("fill", function(d) {
+					return "rgb(0, 0, " + (d["Students"]) + ")";
+			   });
 			   
-	}
-	
-	
+			//Create labels
+			barsvg.selectAll("text")
+			   .data(highschoolDataset)
+			   .enter()
+			   .append("text")
+				.attr("transform", "rotate(-90)")
+			   .text(function(d) {
+					return d["Name"];
+			   })
+			   .attr("text-anchor", "end")
+			   .attr("y", function(d, i) {
+					return focusScaleX(i) + focusScaleX.rangeBand() / 2;
+			   })
+			   .attr("x", function(d) {
+					return -barh + 344;
+			   })
+			   .attr("font-family", "sans-serif")
+			   .attr("font-size", "10px")
+			   .attr("fill", "black");
+			   
+			   
+			   //Create more labels
+			barsvg.selectAll("text.Students")
+			   .data(highschoolDataset)
+			   .enter()
+			   .append("text")
+			   .attr("class", "Students")
+			   .text(function(d) {
+					return d["Students"];
+			   })
+			   .attr("text-anchor", "middle")
+			   .attr("x", function(d, i) {
+					return focusScaleX(i) + focusScaleX.rangeBand() / 2;
+			   })
+			   .attr("y", function(d) {
+					return barh - focusScaleY(d["Students"]) - 355;
+			   })
+			   .attr("font-family", "sans-serif")
+			   .attr("font-size", "11px")
+			   .attr("fill", "black");
+			   
+			   
+			barsvg.append("text")
+				.attr("class", "year")
+				.attr("text-anchor", "middle")
+				.attr("x", w/2)
+				.attr("y", barh/3)
+				.attr("font-family", "sans-serif")
+				.attr("font-size", "12px")
+				.text("Number of students in the "+schools+" schools of NYC. The total number of students are: " + totalnumber + " with an avarage of " + totalnumber/schools + " in each school");
+		});
 	
 	</script>
-
 </body>
 </html
